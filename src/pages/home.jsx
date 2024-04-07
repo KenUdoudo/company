@@ -1,6 +1,10 @@
+import Section1 from "../components/Home/section1";
+
 const Home = () => {
     return (
-        <div>home</div>
+        <div>
+            <Section1 />
+        </div>
     );
 }
  
