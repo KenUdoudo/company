@@ -10,7 +10,7 @@ function App() {
     <div className='px-[50px]'>
       <div className='flex flex-row justify-between items-center bg-gray-100 rounded-full px-[10px] py-[20px] mt-[10px]'>
         <div className="flex flex-row justify-center items-center gap-x-[15px]">
-          <div className="h-[30px] w-[30px] rounded-full bg-#CEFA05"></div>
+          <div className="h-[30px] w-[30px] rounded-full bg-[#CEFA05]"></div>
           <button className={`${tab === 0 ? " bg-gray-200" : ""} border-[1px] rounded-full px-[15px] py-[3px] font-roboto text-[16px] font-[500]`} onClick={()=> setTab(0)}>Home</button>
           <button className={`${tab === 1 ? " bg-gray-200" : ""} border-[1px] rounded-full px-[15px] py-[3px] font-roboto text-[16px] font-[500]`} onClick={()=> setTab(1)}>Get involved</button>
           <button className={`${tab === 2 ? " bg-gray-200" : ""} border-[1px] rounded-full px-[15px] py-[3px] font-roboto text-[16px] font-[500]`} onClick={()=> setTab(2)}>Donate</button>
