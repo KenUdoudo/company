@@ -1,11 +1,17 @@
 import { useState } from 'react'
-import './App.css'
 
 function App() {
 
   return (
     <div>
-      
+      <div>
+        <div className="flex flex-row justify-between items-center">
+          <div className="h-[30px] w-[30px] border"></div>
+        
+
+        </div>
+      </div>
+
     </div>
   )
 }
