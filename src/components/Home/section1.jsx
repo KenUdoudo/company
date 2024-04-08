@@ -9,23 +9,31 @@ const Section1 = () => {
                 <p className="px-[80px] text-[14px] font-inter font-[500]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur repudiandae numquam autem nostrum dolor maiores sapiente eaque aliquam adipisci nam quam soluta expedita dicta, voluptate vel at nisi dolores voluptates.</p>
                 <div className='flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#CEFA05] cursor-pointer'>
                     <p className='text-[13px] font-roboto font-[500]'>Donate Now</p>
-                    <div className='h-[25px] w-[25px] rounded-full border-[1px] bg-green-100'></div>
+                    <div className='h-[25px] w-[25px] rounded-full border-[1px] bg-green-100 flex justify-center items-center'><HiArrowUpRight/></div>
                 </div>
             </div>
 
-            <div className="px-[50px] flex flex-row justify-center items-center mt-[40px]">
-                <div className="w-[25%] h-[400px] flex flex-col justify-normal items-center">
+            <div className="px-[50px] space-x-[20px] flex flex-row justify-center items-center mt-[40px]">
+                <div className="w-[25%] h-[400px] gap-[5px] flex flex-col justify-normal items-center">
                     <div className="h-[80%] w-full border-[2px] bg-[#CEFA05] rounded-md"></div>
-                    <div>
-                        <div className='flex flex-row justify-start items-center gap-[4px] rounded-full px-[10px] py-[3px] bg-gray-100 cursor-pointer'>
-                            <div className='h-[25px] w-[25px] rounded-full border-[1px] bg-[#CEFA05]'></div>
+                    <div className="h-[20%] w-full">
+                        <div className='flex flex-row justify-start items-center gap-[4px] rounded-full px-[7px] py-[7px] bg-gray-100 cursor-pointer'>
+                            <div className='h-[35px] w-[35px] rounded-full border-[1px] bg-[#CEFA05] flex justify-center items-center'><HiSparkles/></div>
                             <p className='text-[13px] font-roboto font-[500]'>Amplify Their Voice</p>
                         </div>
                     </div>
                 </div>
 
 
-                <div className="w-[25%] h-[400px] flex flex-col justify-normal items-center"></div>
+                <div className="w-[25%] h-[400px] flex flex-col justify-normal items-center gap-[10px]">
+                    <div className="w-full flex flex-row justify-start items-center gap-[4px] rounded-full px-[7px] py-[7px] bg-gray-100"><p className="text-[13px]">Help for 8,892 Children in India</p></div>
+                    <div className="bg-[#CEFA05] rounded-md px-[20px] py-[15px]">
+                        <p className="text-[28px] font-semibold">62%</p>
+                        <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tenetur ipsum a, deserunt ut facilis at eius nesciunt? </p>
+                    </div>
+                </div>
+
+
                 <div className="w-[25%] h-[400px] flex flex-col justify-normal items-center"></div>
                 <div className="w-[25%] h-[400px] flex flex-col justify-normal items-center"></div>
             </div>
