@@ -1,3 +1,6 @@
+import { HiArrowUpRight } from "react-icons/hi2";
+import { IoIosSunny } from "react-icons/io";
+import { HiSparkles } from "react-icons/hi2";
 const Section1 = () => {
     return (
         <div className="mt-[60px]">
