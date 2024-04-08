@@ -22,9 +22,9 @@ const Section1 = () => {
                 </div>
 
 
-                <div className="w-[25%]"></div>
-                <div className="w-[25%]"></div>
-                <div className="w-[25%]"></div>
+                <div className="w-[25%] h-[400px] flex flex-col justify-normal items-center"></div>
+                <div className="w-[25%] h-[400px] flex flex-col justify-normal items-center"></div>
+                <div className="w-[25%] h-[400px] flex flex-col justify-normal items-center"></div>
             </div>
         </div>
     );
