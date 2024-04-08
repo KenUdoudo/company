@@ -13,7 +13,7 @@ const Section1 = () => {
                 </div>
             </div>
 
-            <div className="px-[50px] space-x-[20px] flex flex-row justify-center items-center mt-[40px]">
+            <div className="px-[50px] space-x-[20px] flex flex-row justify-center items-center">
                 <div className="w-[25%] h-[350px] gap-[5px] flex flex-col justify-normal items-center">
                     <div className="h-[80%] w-full border-[2px] bg-[#CEFA05] rounded-md"></div>
                     <div className="h-[20%] w-full">
@@ -26,7 +26,7 @@ const Section1 = () => {
 
 
                 <div className="w-[25%] h-[350px] flex flex-col justify-normal items-center gap-[10px] mt-[300px]">
-                    <div className="w-full flex flex-row justify-start items-center gap-[4px] rounded-full px-[7px] py-[7px] bg-gray-100"><p className="text-[13px]">Help for 8,892 Children in India</p></div>
+                    <div className="w-full flex flex-row justify-start items-center gap-[4px] rounded-full px-[10px] py-[7px] bg-gray-100"><p className="text-[13px]">Help for 8,892 Children in India</p></div>
                     <div className="bg-[#CEFA05] rounded-md px-[20px] py-[15px]">
                         <p className="text-[28px] font-semibold">62%</p>
                         <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tenetur ipsum a, deserunt ut facilis at eius nesciunt? </p>
@@ -34,20 +34,30 @@ const Section1 = () => {
                 </div>
 
 
-                <div className="w-[25%] h-[350px] flex flex-col justify-normal items-center">
-                    <div className="h-[60%] w-full bg-[#CEFA05] rounded-md flex flex-col justify-center items-center text-center px-[20px]">
+                <div className="w-[25%] h-[350px] flex flex-col justify-normal items-center gap-[10px] mt-[5%]">
+                    <div className="h-[73%] w-full bg-[#CEFA05] rounded-md flex flex-col justify-center items-center text-center px-[20px]">
                         <div className="h-[50px] w-[50px] flex justify-center items-center"><IoIosSunny className="h-[35px] w-[35px]"/></div>
                         <p className="font-semibold pt-[20px]">Support</p>
                         <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quasi dicta est commodi. </p>
                     </div>
-                    <div className="flex flex-row justify-center items-center space-x-1">
+                    <div className="flex flex-row justify-center items-center space-x-1 rounded-full px-[7px] py-[7px] bg-gray-100 w-full">
                         <p className="text-[13px]">Find a Child</p>
                         <HiArrowUpRight/>
                     </div>
                 </div>
 
 
-                <div className="w-[25%] h-[400px] flex flex-col justify-normal items-center"></div>
+                <div className="w-[25%] h-[400px] flex flex-col justify-normal items-center gap-[10px]">
+                    <div className="flex flex-row justify-center items-center space-x-1 rounded-full px-[7px] py-[7px] bg-gray-100 w-full">
+                            <p className="text-[13px]">Be a Volunteer</p>
+                            <HiArrowUpRight/>
+                    </div>
+                    <div className="h-[75%] w-full bg-[#dfee9b] rounded-md flex flex-col justify-center text-[13px] px-[25px]">
+                        <div className="h-[55%] w-full bg-[#CEFA05] rounded-md"></div>
+                        <p className="pt-[15px] font-semibold">Do Something Great</p>
+                        <p>Help Others to Move and Grow and be in a better world</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
