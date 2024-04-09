@@ -7,7 +7,7 @@ const Section2 = () => {
             </div>
 
             <div className="flex flex-row justify-center items-center px-[50px]">
-                <div className="border-[2px] br">
+                <div className="border-[2px] rounded-l-[15px]">
                     <p>85%</p>
                     <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quis numquam dignissimos aliquam debitis cum magnam suscipit!</p>
                 </div>
