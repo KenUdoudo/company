@@ -1,3 +1,4 @@
+import { HiArrowUpRight } from "react-icons/hi2";
 const Section4 = () => {
     return (
         <div className="px-[50px] mt-[70px]">
@@ -9,6 +10,24 @@ const Section4 = () => {
                 </div>
             </div>
 
+            <div className="flex flex-row justify-center items-center bg-gray-200 p-[30px] rounded-lg mt-[30px] space-x-[30px]">
+                <div className="flex flex-col justify-start w-[50%] bg-white rounded-lg p-[20px] gap-[7px]">
+                    <div className="flex flex-row justify-between items-center ">
+                        <p className="font-semibold">The goal of ForHelp</p>
+                        <HiArrowUpRight />
+                    </div>
+                    <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae maxime qui. Minima adipisci id, amet distinctio nihil nostrum, quae illum nobis,</p>
+                </div>
+                <div className="flex flex-col justify-start w-[50%] bg-white rounded-lg p-[20px] gap-[7px]">
+                    <div className="flex flex-row justify-between items-center ">
+                        <p className="font-semibold">The organization's objective</p>
+                        <HiArrowUpRight />
+                    </div>
+                    <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae maxime qui. Minima adipisci id, amet distinctio nihil nostrum, quae illum nobis,</p>
+                </div>
+
+
+            </div>
 
 
         </div>
