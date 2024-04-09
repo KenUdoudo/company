@@ -7,7 +7,7 @@ const Section6 = () => {
             </div>
 
             <div className="border-[#dfee9b] rounded-lg border-[5px] mt-[30px]">
-                
+                coming soon
             </div>
 
         </div>
