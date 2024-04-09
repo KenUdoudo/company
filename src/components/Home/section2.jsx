@@ -6,8 +6,8 @@ const Section2 = () => {
                 <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, commodi architecto laborum illum incidunt voluptatem. </p>
             </div>
 
-            <div>
-                <div>
+            <div className="flex flex-row justify-center items-center px-[50px]">
+                <div className="border-[2px] br">
                     <p>85%</p>
                     <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quis numquam dignissimos aliquam debitis cum magnam suscipit!</p>
                 </div>
