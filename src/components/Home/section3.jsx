@@ -9,7 +9,7 @@ const Section3 = () => {
             </div>
 
             <div className="flex flex-row justify-center items-center px-[50px] space-x-[30px] mt-[20px]">
-                <div className="w-[40%] bg-[#dfee9b] rounded-lg border-[5px]"></div>
+                <div className="w-[40%] bg-[#dfee9b] rounded-lg border-[5px] h-[440px]"></div>
                 <div className="w-[60%] bg-gray-200 p-[30px] rounded-lg flex flex-col justify-center space-y-[30px]">
                     <div className="flex flex-row justify-between items-center">
                         <p className="font-semibold text-[20px]">Mission</p>
