@@ -13,7 +13,7 @@ const Section1 = () => {
                 </div>
             </div>
 
-            <div className="px-[50px] space-x-[20px] flex flex-row justify-center items-center">
+            <div className="px-[50px] space-x-[20px] flex flex-row justify-center items-center h-[500px]">
                 <div className="w-[25%] h-[350px] gap-[5px] flex flex-col justify-normal items-center">
                     <div className="h-[80%] w-full border-[2px] bg-[#CEFA05] rounded-md"></div>
                     <div className="h-[20%] w-full">
