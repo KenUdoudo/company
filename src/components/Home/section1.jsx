@@ -15,7 +15,7 @@ const Section1 = () => {
 
             <div className="px-[50px] space-x-[20px] flex flex-row justify-center items-center h-[500px]">
                 <div className="w-[25%] h-[350px] gap-[5px] flex flex-col justify-normal items-center">
-                    <div className="h-[80%] w-full border-[2px] bg-[#CEFA05] rounded-md"></div>
+                    <div className="h-[80%] w-full border-[2px] bg-[#dfee9b] rounded-md"></div>
                     <div className="h-[20%] w-full">
                         <div className='flex flex-row justify-start items-center gap-[4px] rounded-full px-[7px] py-[7px] bg-gray-100 cursor-pointer'>
                             <div className='h-[35px] w-[35px] rounded-full border-[1px] bg-[#CEFA05] flex justify-center items-center'><HiSparkles/></div>
@@ -27,7 +27,7 @@ const Section1 = () => {
 
                 <div className="w-[25%] h-[350px] flex flex-col justify-normal items-center gap-[10px] mt-[300px]">
                     <div className="w-full flex flex-row justify-start items-center gap-[4px] rounded-full px-[10px] py-[7px] bg-gray-100"><p className="text-[13px]">Help for 8,892 Children in India</p></div>
-                    <div className="bg-[#CEFA05] rounded-md px-[20px] py-[15px]">
+                    <div className="bg-[#dfee9b] rounded-md px-[20px] py-[15px]">
                         <p className="text-[28px] font-semibold">62%</p>
                         <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tenetur ipsum a, deserunt ut facilis at eius nesciunt? </p>
                     </div>
@@ -35,7 +35,7 @@ const Section1 = () => {
 
 
                 <div className="w-[25%] h-[350px] flex flex-col justify-normal items-center gap-[10px] mt-[5%]">
-                    <div className="h-[73%] w-full bg-[#CEFA05] rounded-md flex flex-col justify-center items-center text-center px-[20px]">
+                    <div className="h-[73%] w-full bg-[#dfee9b] rounded-md flex flex-col justify-center items-center text-center px-[20px]">
                         <div className="h-[50px] w-[50px] flex justify-center items-center"><IoIosSunny className="h-[35px] w-[35px]"/></div>
                         <p className="font-semibold pt-[20px]">Support</p>
                         <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quasi dicta est commodi. </p>
