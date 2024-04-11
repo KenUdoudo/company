@@ -21,18 +21,18 @@ const Section6 = () => {
             <div className="border-[#EAFFCC] rounded-lg border-[5px] mt-[30px] bg-slate-100 px-[100px] py-[40px] h-[398px]">
                 <div className="flex flex-row justify-center items-center space-x-[30px]">
                     <div className="h-[32px] w-[32px] rounded-full bg-[#C2FF66] flex justify-center items-center border-[3px] border-[#E9E9E9]" onClick={ decrement }><HiMiniArrowLeft/></div>
-                    <div className={`${tab === -3 ? "bg-[#C2FF66] h-[40px] w-[40px]" : ""} h-[35px] w-[35px] rounded-full bg-[#E9E9E9]`}></div>
-                    <div className={`${tab === -2 ? "bg-[#C2FF66] h-[40px] w-[40px]" : ""} h-[35px] w-[35px] rounded-full bg-[#E9E9E9]`}></div>
-                    <div className={`${tab === -1 ? "bg-[#C2FF66] h-[40px] w-[40px]" : ""} h-[35px] w-[35px] rounded-full bg-[#E9E9E9]`}></div>
-                    <div className={`${tab === 0 ? "bg-[#C2FF66] h-[40px] w-[40px]" : ""} h-[35px] w-[35px] rounded-full bg-[#E9E9E9]`}></div>
-                    <div className={`${tab === 1 ? "bg-[#C2FF66] h-[40px] w-[40px]" : ""} h-[35px] w-[35px] rounded-full bg-[#E9E9E9]`}></div>
-                    <div className={`${tab === 2 ? "bg-[#C2FF66] h-[40px] w-[40px]" : ""} h-[35px] w-[35px] rounded-full bg-[#E9E9E9]`}></div>
-                    <div className={`${tab === 3 ? "bg-[#C2FF66] h-[40px] w-[40px]" : ""} h-[35px] w-[35px] rounded-full bg-[#E9E9E9]`}></div>
+                    <div className={`${tab === -3 ? "bg-[#C2FF66] h-[40px] w-[40px]" : "bg-[#E9E9E9]"} h-[35px] w-[35px] rounded-full `}></div>
+                    <div className={`${tab === -2 ? "bg-[#C2FF66] h-[40px] w-[40px]" : "bg-[#E9E9E9]"} h-[35px] w-[35px] rounded-full `}></div>
+                    <div className={`${tab === -1 ? "bg-[#C2FF66] h-[40px] w-[40px]" : "bg-[#E9E9E9]"} h-[35px] w-[35px] rounded-full `}></div>
+                    <div className={`${tab === 0 ? "bg-[#C2FF66] h-[40px] w-[40px]" : "bg-[#E9E9E9]"} h-[35px] w-[35px] rounded-full `}></div>
+                    <div className={`${tab === 1 ? "bg-[#C2FF66] h-[40px] w-[40px]" : "bg-[#E9E9E9]"} h-[35px] w-[35px] rounded-full `}></div>
+                    <div className={`${tab === 2 ? "bg-[#C2FF66] h-[40px] w-[40px]" : "bg-[#E9E9E9]"} h-[35px] w-[35px] rounded-full `}></div>
+                    <div className={`${tab === 3 ? "bg-[#C2FF66] h-[40px] w-[40px]" : "bg-[#E9E9E9]"} h-[35px] w-[35px] rounded-full `}></div>
                     <div className="h-[32px] w-[32px] rounded-full bg-[#C2FF66] flex justify-center items-center border-[3px] border-[#E9E9E9]" onClick={ increment }><HiMiniArrowRight/></div>
                 </div>
                 <div className="px-[50px] border-[5px] rounded-lg border-white flex justify-center items-center mt-[20px]">
                     <div className="flex flex-row justify-center space-x-[20px] py-[50px]">
-                        <div className="border-[1px] h-[80px] w-[60px] shrink-0"></div>
+                        <div className="border-[3px] h-[80px] w-[60px] shrink-0"></div>
                         {tab === -3 && (
                             <div className="flex flex-col gap-[20px]">
                                 <p className="text-[20px] font-semibold">"Thank you so much for your support!"</p>
