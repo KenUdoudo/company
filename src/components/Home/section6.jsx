@@ -5,10 +5,14 @@ const Section6 = () => {
    const [tab, setTab] = useState(0);
 
    const increment = () => {
+    if (tab < 3){
     setTab(preTab => preTab + 1);
+    }
    };
    const decrement = () => {
+    if (tab > -3){
     setTab(preTab => preTab - 1);
+    }
    };
 
     return (
