@@ -18,7 +18,7 @@ const Section6 = () => {
                 <p className="text-[13px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio maxime nobis dolorum distinctio dolor minus magni, ratione rem vero <br /> dignissimos delectus ipsa quod. Expedita animi veritatis quas laboriosam mollitia?</p>
             </div>
 
-            <div className="border-[#dfee9b] rounded-lg border-[5px] mt-[30px] bg-slate-100 px-[100px] py-[40px] h-[398px]">
+            <div className="border-[#EAFFCC] rounded-lg border-[5px] mt-[30px] bg-slate-100 px-[100px] py-[40px] h-[398px]">
                 <div className="flex flex-row justify-center items-center space-x-[30px]">
                     <div className="h-[32px] w-[32px] rounded-full bg-[#C2FF66] flex justify-center items-center border-[3px] border-[#E9E9E9]" onClick={ decrement }><HiMiniArrowLeft/></div>
                     <div className={`${tab === -3 ? "bg-[#C2FF66] h-[40px] w-[40px]" : ""} h-[35px] w-[35px] rounded-full bg-[#E9E9E9]`}></div>

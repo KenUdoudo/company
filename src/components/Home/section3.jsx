@@ -5,12 +5,12 @@ const Section3 = () => {
             <div className="text-center flex flex-col justify-center items-center">
                 <p className="text-[28px] font-semibold">Empowering Children, Creating Futures</p>
                 <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo nesciunt est similique quidem, dignissimos pariatur ad eligendi! <br /> Aperiam harum exercitationem aut incidunt quos, perferendis vero suscipit doloribus dolorum veritatis!</p>
-                <p className="text-[13px] font-medium rounded-full px-[10px] py-[10px] bg-gray-200 mt-[20px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo nesciunt est similique quidem, dignissimos pariatur ad eligendi! </p>
+                <p className="text-[13px] font-medium rounded-full px-[10px] py-[10px] bg-[#E9E9E9] mt-[20px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo nesciunt est similique quidem, dignissimos pariatur ad eligendi! </p>
             </div>
 
             <div className="flex flex-row justify-center items-center px-[50px] space-x-[30px] mt-[20px]">
-                <div className="w-[40%] bg-[#dfee9b] rounded-lg border-[5px] h-[440px]"></div>
-                <div className="w-[60%] bg-gray-200 p-[30px] rounded-lg flex flex-col justify-center space-y-[30px]">
+                <div className="w-[40%] bg-[#D0F49C] rounded-lg border-[5px] h-[440px]"></div>
+                <div className="w-[60%] bg-[#E9E9E9] p-[30px] rounded-lg flex flex-col justify-center space-y-[30px]">
                     <div className="flex flex-row justify-between items-center">
                         <p className="font-semibold text-[20px]">Mission</p>
                         <div className='flex flex-row justify-center items-center gap-[4px] rounded-full bg-white px-[13px] py-[10px] cursor-pointer'>
@@ -21,27 +21,27 @@ const Section3 = () => {
 
                     <div className="flex flex-col justify-center items-center bg-white rounded-lg p-[20px]">
                         <div className="flex flex-row gap-[10px] justify-normal items-center border-b-[2px] pb-[20px]">
-                            <div className="h-[40px] w-[40px] bg-[#CEFA05] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">01</div>
+                            <div className="h-[40px] w-[40px] bg-[#C2FF66] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">01</div>
                             <p className="text-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nemo aperiam, deleniti nobis eius maxime, est reprehenderit eaque modi rerum excepturi laudantium,</p>
                         </div>
                         <div className="flex flex-row gap-[10px] justify-normal items-center border-b-[2px] pt-[15px] pb-[20px]">
-                            <div className="h-[40px] w-[40px] bg-[#CEFA05] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">02</div>
+                            <div className="h-[40px] w-[40px] bg-[#C2FF66] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">02</div>
                             <p className="text-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nemo aperiam, deleniti nobis eius maxime, est reprehenderit eaque modi rerum excepturi laudantium,</p>
                         </div>
                         <div className="flex flex-row gap-[10px] justify-normal items-center border-b-[2px] pt-[15px] pb-[20px]">
-                            <div className="h-[40px] w-[40px] bg-[#CEFA05] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">03</div>
+                            <div className="h-[40px] w-[40px] bg-[#C2FF66] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">03</div>
                             <p className="text-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nemo aperiam, deleniti nobis eius maxime, est reprehenderit eaque modi rerum excepturi laudantium,</p>
                         </div>
                         <div className="flex flex-row gap-[10px] justify-normal items-center pt-[15px]">
-                            <div className="h-[40px] w-[40px] bg-[#CEFA05] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">04</div>
+                            <div className="h-[40px] w-[40px] bg-[#C2FF66] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">04</div>
                             <p className="text-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nemo aperiam, deleniti nobis eius maxime, est reprehenderit eaque modi rerum excepturi laudantium,</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="flex flex-row-reverse justify-center items-center px-[50px] gap-[30px] mt-[30px]">
-                <div className="w-[40%] bg-[#dfee9b] rounded-lg border-[5px] h-[440px]"></div>
-                <div className="w-[60%] bg-gray-200 p-[30px] rounded-lg flex flex-col justify-center space-y-[30px]">
+                <div className="w-[40%] bg-[#D0F49C] rounded-lg border-[5px] h-[440px]"></div>
+                <div className="w-[60%] bg-[#E9E9E9] p-[30px] rounded-lg flex flex-col justify-center space-y-[30px]">
                     <div className="flex flex-row justify-between items-center">
                         <p className="font-semibold text-[20px]">Vision</p>
                         <div className='flex flex-row justify-center items-center gap-[4px] rounded-full bg-white px-[13px] py-[10px] cursor-pointer'>
@@ -52,19 +52,19 @@ const Section3 = () => {
 
                     <div className="flex flex-col justify-center items-center bg-white rounded-lg p-[20px]">
                         <div className="flex flex-row gap-[10px] justify-normal items-center border-b-[2px] pb-[20px]">
-                            <div className="h-[40px] w-[40px] bg-[#CEFA05] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">01</div>
+                            <div className="h-[40px] w-[40px] bg-[#C2FF66] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">01</div>
                             <p className="text-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nemo aperiam, deleniti nobis eius maxime, est reprehenderit eaque modi rerum excepturi laudantium,</p>
                         </div>
                         <div className="flex flex-row gap-[10px] justify-normal items-center border-b-[2px] pt-[15px] pb-[20px]">
-                            <div className="h-[40px] w-[40px] bg-[#CEFA05] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">02</div>
+                            <div className="h-[40px] w-[40px] bg-[#C2FF66] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">02</div>
                             <p className="text-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nemo aperiam, deleniti nobis eius maxime, est reprehenderit eaque modi rerum excepturi laudantium,</p>
                         </div>
                         <div className="flex flex-row gap-[10px] justify-normal items-center border-b-[2px] pt-[15px] pb-[20px]">
-                            <div className="h-[40px] w-[40px] bg-[#CEFA05] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">03</div>
+                            <div className="h-[40px] w-[40px] bg-[#C2FF66] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">03</div>
                             <p className="text-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nemo aperiam, deleniti nobis eius maxime, est reprehenderit eaque modi rerum excepturi laudantium,</p>
                         </div>
                         <div className="flex flex-row gap-[10px] justify-normal items-center pt-[15px]">
-                            <div className="h-[40px] w-[40px] bg-[#CEFA05] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">04</div>
+                            <div className="h-[40px] w-[40px] bg-[#C2FF66] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">04</div>
                             <p className="text-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nemo aperiam, deleniti nobis eius maxime, est reprehenderit eaque modi rerum excepturi laudantium,</p>
                         </div>
                     </div>
