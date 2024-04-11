@@ -21,7 +21,7 @@ const Section7 = () => {
                         <p className="text-[28px] font-semibold">01</p>
                         <div>
                             <p className="font-semibold">What is ForHelp?</p>
-                            {displayText ? 'lorem kisubvfiuyb': '' }
+                            {displayText && <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>}
                         </div>
                     </div>
                     <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onclick={ handleClick }>
