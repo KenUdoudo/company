@@ -50,17 +50,17 @@ function App() {
         )}
       </div>
 
-      <div className='flex flex-row justify-between items-center bg-gray-100 rounded-full px-[20px] py-[20px] mt-[10px]'>
+      <div className='flex flex-row justify-between items-center bg-gray-100 rounded-full px-[20px] py-[20px] mt-[80px]'>
         <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C]"></div>
         <div className="flex flex-row justify-center items-center gap-x-[15px]">
-          <button className={`${tab === 0 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] font-roboto text-[16px] font-[500]`} onClick={()=> setTab(0)}>Home</button>
-          <button className={`${tab === 1 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] font-roboto text-[16px] font-[500]`} onClick={()=> setTab(1)}>Get involved</button>
-          <button className={`${tab === 2 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] font-roboto text-[16px] font-[500]`} onClick={()=> setTab(2)}>Donate</button>
-          <button className={`${tab === 3 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] font-roboto text-[16px] font-[500]`} onClick={()=> setTab(3)}>Impact Areas</button>
-          <button className={`${tab === 4 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] font-roboto text-[16px] font-[500]`} onClick={()=> setTab(4)}>Success Stories</button>
-          <button className={`${tab === 5 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] font-roboto text-[16px] font-[500]`} onClick={()=> setTab(5)}>News</button>
+          <button className="rounded-full px-[15px] py-[3px] text-[13px] font-[500]" onClick={()=> setTab(0)}>Home</button>
+          <button className="rounded-full px-[15px] py-[3px] text-[13px] font-[500]" onClick={()=> setTab(1)}>Get involved</button>
+          <button className="rounded-full px-[15px] py-[3px] text-[13px] font-[500]" onClick={()=> setTab(2)}>Donate</button>
+          <button className="rounded-full px-[15px] py-[3px] text-[13px] font-[500]" onClick={()=> setTab(3)}>Impact Areas</button>
+          <button className="rounded-full px-[15px] py-[3px] text-[13px] font-[500]" onClick={()=> setTab(4)}>Success Stories</button>
+          <button className="rounded-full px-[15px] py-[3px] text-[13px] font-[500]" onClick={()=> setTab(5)}>News</button>
         </div>
-        <div>
+        <div className='flex flex-row justify-center items-center space-x-[10px]'>
           <div className="h-[30px] w-[30px] rounded-full bg-[#C2FF66] flex justify-center items-center"><IoLogoFacebook/></div>
           <div className="h-[30px] w-[30px] rounded-full bg-[#C2FF66] flex justify-center items-center"><FaTwitter/></div>
           <div className="h-[30px] w-[30px] rounded-full bg-[#C2FF66] flex justify-center items-center"><FaLinkedin/></div>
