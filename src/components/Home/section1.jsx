@@ -6,9 +6,9 @@ const Section1 = () => {
         <div className="mt-[20px]">
             <div className="flex flex-col justify-center items-center text-center gap-y-[20px]">
                 <p className="text-[38px] font-[600]">Transforming Lives Through <br /> Hope and Education</p>
-                <p className="px-[80px] text-[14px] font-inter font-[500]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur repudiandae numquam autem nostrum dolor maiores sapiente eaque aliquam adipisci nam quam soluta expedita dicta, voluptate vel at nisi dolores voluptates.</p>
+                <p className="px-[80px] text-[14px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur repudiandae numquam autem nostrum dolor maiores sapiente eaque aliquam adipisci nam quam soluta expedita dicta, voluptate vel at nisi dolores voluptates.</p>
                 <div className='flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#C2FF66] cursor-pointer'>
-                    <p className='text-[13px] font-roboto font-[500]'>Donate Now</p>
+                    <p className='text-[13px] font-[500]'>Donate Now</p>
                     <div className='h-[25px] w-[25px] rounded-full border-[1px] bg-[#D0F49C] flex justify-center items-center'><HiArrowUpRight/></div>
                 </div>
             </div>
@@ -25,7 +25,7 @@ const Section1 = () => {
                 </div>
 
 
-                <div className="w-[25%] h-[350px] flex flex-col justify-normal items-center gap-[10px] mt-[280px]">
+                <div className="w-[25%] h-[350px] flex flex-col justify-normal items-center gap-[10px] mt-[260px]">
                     <div className="w-full flex flex-row justify-start items-center gap-[4px] rounded-full px-[10px] py-[7px] bg-gray-100"><p className="text-[13px]">Help for 8,892 Children in India</p></div>
                     <div className="bg-[#D0F49C] rounded-md px-[20px] py-[15px]">
                         <p className="text-[28px] font-semibold">62%</p>

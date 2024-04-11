@@ -12,7 +12,7 @@ import { FaLinkedin } from 'react-icons/fa';
 function App() {
   const [tab, setTab] = useState(0);
   return (
-    <div className='px-[50px]'>
+    <div className='px-[50px] font-monts'>
       <div className='flex flex-row justify-between items-center bg-gray-100 rounded-full px-[20px] py-[20px] mt-[10px]'>
         <div className="flex flex-row justify-center items-center gap-x-[15px]">
           <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C]"></div>
@@ -68,7 +68,7 @@ function App() {
         
 
       </div>
-
+      <p className='text-[13px] text-center text-[#8f8d8d] py-[30px]'>© 2023 ForHelp. All rights reserved.</p>
     </div>
   )
 }
