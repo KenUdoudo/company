@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        monts: ["Poppins"],
+        monts: ["Poppins", "san-serif" ],
       },
     },
   },
