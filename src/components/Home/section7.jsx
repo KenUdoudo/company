@@ -3,11 +3,39 @@ import { HiPlus } from "react-icons/hi2";
 import { IoMdClose } from "react-icons/io"; 
 const Section7 = () => {
     const [iconClicked, setIconClicked] = useState(false);
-    const [displayText, setDisplayText] = useState(false);
+    const [displayText2, setDisplayText2] = useState('');
+    const [displayText3, setDisplayText3] = useState('');
+    const [displayText4, setDisplayText4] = useState('');
+    const [displayText5, setDisplayText5] = useState('');
+    const [displayText1, setDisplayText1] = useState('');
 
-    const handleClick = () => {
+    const handleClick = (buttonId) => {
         setIconClicked(prevState => !prevState);
-        setDisplayText(prevState => !prevState);
+        let message = '';
+        switch (buttonId) {
+            case 1:
+                message = 'Text for button 1'
+                setDisplayText1(prevText => prevText === message ? '' : message);
+                break;
+            case 2:
+                message = 'Text for button 2'
+                setDisplayText2(prevText => prevText === message ? '' : message);
+                break;
+            case 3:
+                message = 'Text for button 3'
+                setDisplayText3(prevText => prevText === message ? '' : message);
+                break;
+            case 4:
+                message = 'Text for button 4'
+                setDisplayText4(prevText => prevText === message ? '' : message);
+                break;
+            case 5:
+                message = 'Text for button 5'
+                setDisplayText5(prevText => prevText === message ? '' : message);
+                break;
+            default:
+                message = '';
+        }
     }
     return (
         <div className="mt-[50px] px-[50px]">
@@ -21,10 +49,10 @@ const Section7 = () => {
                         <p className="text-[28px] font-semibold">01</p>
                         <div>
                             <p className="font-semibold">What is ForHelp?</p>
-                            {displayText && <p className="text-[13px] py-[2px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>}
+                            {displayText1}
                         </div>
                     </div>
-                    <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onClick={ handleClick }>
+                    <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onClick={() => handleClick(1)}>
                         {iconClicked ? <IoMdClose /> : <HiPlus />}
                     </div>
                 </div>
@@ -33,10 +61,10 @@ const Section7 = () => {
                         <p className="text-[28px] font-semibold">02</p>
                         <div>
                             <p className="font-semibold">How can I help ForHelp?</p>
-                            {displayText && <p className="text-[13px] py-[2px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>}
+                            {displayText2}
                         </div>
                     </div>
-                    <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onClick={ handleClick }>
+                    <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onClick={() => handleClick(2)}>
                         {iconClicked ? <IoMdClose /> : <HiPlus />}
                     </div>
                 </div>
@@ -45,10 +73,10 @@ const Section7 = () => {
                         <p className="text-[28px] font-semibold">03</p>
                         <div>
                             <p className="font-semibold">How does ForHelp use donations?</p>
-                            {displayText && <p className="text-[13px] py-[2px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>}
+                            {displayText3}
                         </div>
                     </div>
-                    <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onClick={ handleClick }>
+                    <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onClick={() => handleClick(3)}>
                         {iconClicked ? <IoMdClose /> : <HiPlus />}
                     </div>
                 </div>
@@ -57,10 +85,10 @@ const Section7 = () => {
                         <p className="text-[28px] font-semibold">04</p>
                         <div>
                             <p className="font-semibold">How can I be sure that my donation is used effectively?</p>
-                            {displayText && <p className="text-[13px] py-[2px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>}
+                            {displayText4}
                         </div>
                     </div>
-                    <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onClick={ handleClick }>
+                    <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onClick={() => handleClick(4)}>
                         {iconClicked ? <IoMdClose /> : <HiPlus />}
                     </div>
                 </div>
@@ -69,10 +97,10 @@ const Section7 = () => {
                         <p className="text-[28px] font-semibold">05</p>
                         <div>
                             <p className="font-semibold">What is the impact of ForHelp's work?</p>
-                            {displayText && <p className="text-[13px] py-[2px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>}
+                            {displayText5}
                         </div>
                     </div>
-                    <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onClick={ handleClick }>
+                    <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onClick={() => handleClick(5)}>
                         {iconClicked ? <IoMdClose /> : <HiPlus />}
                     </div>
                 </div>
