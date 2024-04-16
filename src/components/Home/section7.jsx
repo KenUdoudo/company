@@ -71,7 +71,7 @@ const Section7 = () => {
                             {displayText1}
                         </div>
                     </div>
-                    <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onClick={() => handleClick(1)}>
+                    <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center" onClick={() => handleClick(1)}>
                         {icon1}
                     </div>
                 </div>
@@ -83,7 +83,7 @@ const Section7 = () => {
                             {displayText2}
                         </div>
                     </div>
-                    <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onClick={() => handleClick(2)}>
+                    <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center" onClick={() => handleClick(2)}>
                         {icon2}
                     </div>
                 </div>
@@ -95,7 +95,7 @@ const Section7 = () => {
                             {displayText3}
                         </div>
                     </div>
-                    <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onClick={() => handleClick(3)}>
+                    <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center" onClick={() => handleClick(3)}>
                         {icon3}
                     </div>
                 </div>
@@ -107,7 +107,7 @@ const Section7 = () => {
                             {displayText4}
                         </div>
                     </div>
-                    <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onClick={() => handleClick(4)}>
+                    <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center" onClick={() => handleClick(4)}>
                         {icon4}
                     </div>
                 </div>
@@ -119,7 +119,7 @@ const Section7 = () => {
                             {displayText5}
                         </div>
                     </div>
-                    <div className="h-[30px] w-[30px] rounded-full bg-[#D0F49C] flex justify-center items-center" onClick={() => handleClick(5)}>
+                    <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center" onClick={() => handleClick(5)}>
                         {icon5}
                     </div>
                 </div>
