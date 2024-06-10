@@ -16,7 +16,7 @@ function App() {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-};
+  };
   return (
     <div className='px-[50px] font-monts'>
       <div className='flex flex-row justify-between items-center bg-gray-100 rounded-full px-[15px] py-[15px] mt-[10px] w-full'>
