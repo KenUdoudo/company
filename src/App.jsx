@@ -39,13 +39,13 @@ function App() {
           </div>
         </div>*/}
 
-        <div className="hidden md:flex flex-row justify-center items-center gap-x-[15px]">
-          <button className={`${tab === 0 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] text-[16px] font-[500]`} onClick={()=> setTab(0)}>Home</button>
-          <button className={`${tab === 1 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] text-[16px] font-[500]`} onClick={()=> setTab(1)}>Get involved</button>
-          <button className={`${tab === 2 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] text-[16px] font-[500]`} onClick={()=> setTab(2)}>Donate</button>
-          <button className={`${tab === 3 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] text-[16px] font-[500]`} onClick={()=> setTab(3)}>Impact Areas</button>
-          <button className={`${tab === 4 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] text-[16px] font-[500]`} onClick={()=> setTab(4)}>Success Stories</button>
-          <button className={`${tab === 5 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] text-[16px] font-[500]`} onClick={()=> setTab(5)}>News</button>
+        <div className="hidden md:flex flex-row justify-center items-center gap-x-[4px] lg:gap-x-[15px]">
+          <button className={`${tab === 0 ? " bg-[#E9E9E9]" : ""} rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] lg:text-[16px] font-[500]`} onClick={()=> setTab(0)}>Home</button>
+          <button className={`${tab === 1 ? " bg-[#E9E9E9]" : ""} rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] lg:text-[16px] font-[500]`} onClick={()=> setTab(1)}>Get involved</button>
+          <button className={`${tab === 2 ? " bg-[#E9E9E9]" : ""} rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] lg:text-[16px] font-[500]`} onClick={()=> setTab(2)}>Donate</button>
+          <button className={`${tab === 3 ? " bg-[#E9E9E9]" : ""} rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] lg:text-[16px] font-[500]`} onClick={()=> setTab(3)}>Impact Areas</button>
+          <button className={`${tab === 4 ? " bg-[#E9E9E9]" : ""} rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] lg:text-[16px] font-[500]`} onClick={()=> setTab(4)}>Success Stories</button>
+          <button className={`${tab === 5 ? " bg-[#E9E9E9]" : ""} rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] lg:text-[16px] font-[500]`} onClick={()=> setTab(5)}>News</button>
         </div>
         <div className='hidden md:flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] cursor-pointer'>
           <p className='text-[13px] font-[500]'>Contact Us</p>
