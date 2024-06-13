@@ -13,7 +13,7 @@ import logo from './assets/newlogo.svg';
 import { HiOutlineMenu } from "react-icons/hi";
 function App() {
   const [tab, setTab] = useState(0);
-
+  const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -24,7 +24,7 @@ function App() {
 
         <button onClick={toggleMenu} className='block md:hidden z-30'><HiOutlineMenu className="h-[25px] w-[25px]"/></button>
 
-       {/* <div className={`fixed top-0 right-0 h-full bg-[#e9e9e9] w-[75%] transform ${isOpen ? '-translate-x-0' : 'translate-x-full'} transition-transform duration-500 ease-in-out overflow-hidden`}>
+       <div className={`fixed top-0 right-0 h-full bg-[#e9e9e9] w-[75%] transform ${isOpen ? '-translate-x-0' : 'translate-x-full'} transition-transform duration-500 ease-in-out overflow-hidden`}>
           <div className="flex flex-col items-start gap-y-[20px] px-[20px] py-[20px]">
             <button className={`${tab === 0 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] text-[16px] font-[500]`} onClick={()=> setTab(0)}>Home</button>
             <button className={`${tab === 1 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] text-[16px] font-[500]`} onClick={()=> setTab(1)}>Get involved</button>
@@ -37,7 +37,7 @@ function App() {
             <p className='text-[13px] font-[500]'>Contact Us</p>
             <div className='h-[25px] w-[25px] rounded-full border-[1px] bg-[#FFD4A1] flex justify-center items-center'><HiMiniEnvelope/></div>
           </div>
-        </div>*/}
+        </div>
 
         <div className="hidden md:flex flex-row justify-center items-center gap-x-[4px] lg:gap-x-[15px]">
           <button className={`${tab === 0 ? " bg-[#E9E9E9]" : ""} rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] lg:text-[16px] font-[500]`} onClick={()=> setTab(0)}>Home</button>
