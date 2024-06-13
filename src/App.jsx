@@ -74,7 +74,7 @@ function App() {
         )}
       </div>
 
-      <div className='flex flex-row justify-between items-center bg-gray-100 rounded-full px-[20px] py-[20px] mt-[80px]'>
+      <div className='hidden md:flex flex-row justify-between items-center bg-gray-100 rounded-full px-[20px] py-[20px] mt-[80px]'>
       <div className=" w-[100px]"><img src={ logo }/></div>
         <div className="flex flex-row justify-center items-center gap-x-[15px]">
           <button className="rounded-full px-[15px] py-[3px] text-[13px] font-[500]" onClick={()=> setTab(0)}>Home</button>
