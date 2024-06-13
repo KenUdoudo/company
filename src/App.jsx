@@ -33,7 +33,7 @@ function App() {
             <button className={`${tab === 4 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] text-[16px] font-[500]`} onClick={()=> setTab(4)}>Success Stories</button>
             <button className={`${tab === 5 ? " bg-[#E9E9E9]" : ""} rounded-full px-[15px] py-[3px] text-[16px] font-[500]`} onClick={()=> setTab(5)}>News</button>
           </div>
-          <div className='flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] cursor-pointer'>
+          <div className='flex flex-row justify-center items-center gap-[4px] px-[13px] py-[10px] bg-[#F7941D] cursor-pointer'>
             <p className='text-[13px] font-[500]'>Contact Us</p>
             <div className='h-[25px] w-[25px] rounded-full border-[1px] bg-[#FFD4A1] flex justify-center items-center'><HiMiniEnvelope/></div>
           </div>
