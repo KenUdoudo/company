@@ -57,21 +57,21 @@ const Section7 = () => {
         }
     }
     return (
-        <div className="mt-[50px] px-[50px]">
+        <div className="mt-[50px] px-[20px] lg:px-[50px]">
             <div className="text-center">
                 <p className="text-[28px] font-semibold">Frequently Asked Questions</p>
                 <p className="text-[13px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio maxime nobis dolorum distinctio dolor minus magni, ratione rem vero <br /> dignissimos delectus ipsa quod. Expedita animi veritatis quas laboriosam mollitia?</p>
             </div>
-            <div className="bg-[#E9E9E9] p-[30px] rounded-lg mt-[20px] flex flex-col gap-y-[20px]">
+            <div className="bg-[#E9E9E9] p-[15px] md:p-[30px] rounded-lg mt-[20px] flex flex-col gap-y-[20px]">
                 <div className=" flex flex-row justify-between items-center px-[30px] h-[72px] bg-white rounded-md">
                     <div className="flex flex-row items-center space-x-[20px]">
                         <p className="text-[28px] font-semibold">01</p>
                         <div>
-                            <p className="font-semibold">What is ForHelp?</p>
+                            <p className="text-[13px] md:text-[16px] font-semibold">What is ForHelp?</p>
                             {displayText1}
                         </div>
                     </div>
-                    <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center" onClick={() => handleClick(1)}>
+                    <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center shrink-0" onClick={() => handleClick(1)}>
                         {icon1}
                     </div>
                 </div>
@@ -79,11 +79,11 @@ const Section7 = () => {
                     <div className="flex flex-row items-center space-x-[20px]">
                         <p className="text-[28px] font-semibold">02</p>
                         <div>
-                            <p className="font-semibold">How can I help ForHelp?</p>
+                            <p className="text-[13px] md:text-[16px] font-semibold">How can I help ForHelp?</p>
                             {displayText2}
                         </div>
                     </div>
-                    <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center" onClick={() => handleClick(2)}>
+                    <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center shrink-0" onClick={() => handleClick(2)}>
                         {icon2}
                     </div>
                 </div>
@@ -91,11 +91,11 @@ const Section7 = () => {
                     <div className="flex flex-row items-center space-x-[20px]">
                         <p className="text-[28px] font-semibold">03</p>
                         <div>
-                            <p className="font-semibold">How does ForHelp use donations?</p>
+                            <p className="text-[13px] md:text-[16px] font-semibold">How does ForHelp use donations?</p>
                             {displayText3}
                         </div>
                     </div>
-                    <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center" onClick={() => handleClick(3)}>
+                    <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center shrink-0" onClick={() => handleClick(3)}>
                         {icon3}
                     </div>
                 </div>
@@ -103,11 +103,11 @@ const Section7 = () => {
                     <div className="flex flex-row items-center space-x-[20px]">
                         <p className="text-[28px] font-semibold">04</p>
                         <div>
-                            <p className="font-semibold">How can I be sure that my donation is used effectively?</p>
+                            <p className="text-[13px] md:text-[16px] font-semibold">How can I be sure that my donation is used effectively?</p>
                             {displayText4}
                         </div>
                     </div>
-                    <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center" onClick={() => handleClick(4)}>
+                    <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center shrink-0" onClick={() => handleClick(4)}>
                         {icon4}
                     </div>
                 </div>
@@ -115,11 +115,11 @@ const Section7 = () => {
                     <div className="flex flex-row items-center space-x-[20px]">
                         <p className="text-[28px] font-semibold">05</p>
                         <div>
-                            <p className="font-semibold">What is the impact of ForHelp's work?</p>
+                            <p className="text-[13px] md:text-[16px] font-semibold">What is the impact of ForHelp's work?</p>
                             {displayText5}
                         </div>
                     </div>
-                    <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center" onClick={() => handleClick(5)}>
+                    <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center shrink-0" onClick={() => handleClick(5)}>
                         {icon5}
                     </div>
                 </div>
