@@ -8,9 +8,9 @@ const Section3 = () => {
                 <p className="text-[13px] font-medium rounded-full px-[10px] py-[10px] bg-[#E9E9E9] mt-[20px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo nesciunt est similique quidem, dignissimos pariatur ad eligendi! </p>
             </div>
 
-            <div className="flex flex-row justify-center items-center px-[20px] lg:px-[50px] space-x-[30px] mt-[20px] md:h-[660px] lg:h-[520px]">
+            <div className="flex flex-row justify-center items-center px-[20px] lg:px-[50px] gap-x-[30px] mt-[20px] md:h-[660px] lg:h-[520px]">
                 <div className="hidden md:block md:w-[45%] lg:w-[40%] bg-[#FFD4A1] rounded-lg border-[5px]  h-full"></div>
-                <div className="w-full md:w-[60%] bg-[#E9E9E9] p-[30px] rounded-lg flex flex-col justify-center space-y-[30px] h-full">
+                <div className="w-full md:w-[60%] bg-[#E9E9E9] p-[30px] rounded-lg flex flex-col justify-center gap-y-[30px] h-full">
                     <div className="flex flex-row justify-between items-center">
                         <p className="font-semibold text-[20px]">Mission</p>
                         <div className='flex flex-row justify-center items-center gap-[4px] rounded-full bg-white px-[13px] py-[10px] cursor-pointer'>
