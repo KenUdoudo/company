@@ -13,8 +13,8 @@ const Section1 = () => {
                 </div>
             </div>
 
-            <div className="px-[20px] lg:px-[50px] space-x-[20px] flex flex-row justify-center items-center h-[500px]">
-                <div className="w-[25%] h-[350px] gap-[5px] flex flex-col justify-normal items-center">
+            <div className="mt-[30px] md:mt-0 px-[20px] lg:px-[50px] space-x-[20px] flex flex-row flex-wrap md:flex-nowrap justify-center items-center md:h-[500px]">
+                <div className="w-[40%] md:w-[25%] h-[350px] gap-[5px] flex flex-col justify-normal items-center">
                     <div className="h-[60%] lg:h-[80%] w-full border-[2px] bg-[#FFD4A1] rounded-md"></div>
                     <div className="h-[20%] w-full">
                         <div className='flex flex-row justify-start items-center gap-[4px] rounded-full px-[7px] py-[7px] bg-gray-100 cursor-pointer'>
@@ -25,7 +25,7 @@ const Section1 = () => {
                 </div>
 
 
-                <div className="w-[25%] h-[350px] flex flex-col justify-normal items-center gap-[10px] mt-[40px] lg:mt-[260px]">
+                <div className="w-[40%] md:w-[25%] h-[350px] flex flex-col justify-normal items-center gap-[10px] mt-[40px] lg:mt-[260px]">
                     <div className="w-full flex flex-row justify-start items-center gap-[4px] rounded-full px-[10px] py-[7px] bg-gray-100"><p className="text-[13px]">Help for 8,892 Children in India</p></div>
                     <div className="bg-[#FFD4A1] rounded-md px-[20px] py-[15px]">
                         <p className="text-[28px] font-semibold">62%</p>
@@ -34,8 +34,8 @@ const Section1 = () => {
                 </div>
 
 
-                <div className="w-[25%] h-[290px] lg:h-[350px] flex flex-col justify-normal items-center gap-[10px] mt-[3%] lg:mt-[5%]">
-                    <div className="h-[73%] w-full bg-[#FFD4A1] rounded-md flex flex-col justify-center items-center text-center px-[20px]">
+                <div className="w-[40%] md:w-[25%] h-[290px] lg:h-[350px] flex flex-col justify-normal items-center gap-[10px] mt-[3%] lg:mt-[5%]">
+                    <div className="h-[73%] w-full bg-[#FFD4A1] rounded-md flex flex-col justify-center items-center text-center px-[20px] py-[20px]">
                         <div className="h-[50px] w-[50px] flex justify-center items-center"><IoIosSunny className="h-[35px] w-[35px]"/></div>
                         <p className="font-semibold pt-[20px]">Support</p>
                         <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quasi dicta est commodi. </p>
@@ -47,7 +47,7 @@ const Section1 = () => {
                 </div>
 
 
-                <div className="w-[25%] h-[300px] lg:h-[400px] flex flex-col justify-normal items-center gap-[10px]">
+                <div className="w-[40%] md:w-[25%] h-[300px] lg:h-[400px] flex flex-col justify-normal items-center gap-[10px]">
                     <div className="flex flex-row justify-center items-center space-x-1 rounded-full px-[7px] py-[7px] bg-gray-100 w-full">
                             <p className="text-[13px]">Be a Volunteer</p>
                             <HiArrowUpRight/>
