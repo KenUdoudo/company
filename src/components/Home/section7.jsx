@@ -67,7 +67,7 @@ const Section7 = () => {
                     <div className="flex flex-row items-center space-x-[20px]">
                         <p className="text-[28px] font-semibold">01</p>
                         <div>
-                            <p className="text-[13px] md:text-[16px] font-semibold">What is ForHelp?</p>
+                            <p className="text-[13px] md:text-[16px] font-semibold">How can I help PLEF?</p>
                             {displayText1}
                         </div>
                     </div>
@@ -91,7 +91,7 @@ const Section7 = () => {
                     <div className="flex flex-row items-center space-x-[20px]">
                         <p className="text-[28px] font-semibold">03</p>
                         <div>
-                            <p className="text-[13px] md:text-[16px] font-semibold">How does ForHelp use donations?</p>
+                            <p className="text-[13px] md:text-[16px] font-semibold">How does PLEF receive donations and other contributions?</p>
                             {displayText3}
                         </div>
                     </div>
@@ -99,11 +99,11 @@ const Section7 = () => {
                         {icon3}
                     </div>
                 </div>
-                <div className=" flex flex-row justify-between items-center px-[30px] h-[120px] md:h-[72px] bg-white rounded-md">
+                <div className=" flex flex-row justify-between items-center px-[30px] h-[100px] md:h-[72px] bg-white rounded-md">
                     <div className="flex flex-row items-center space-x-[20px]">
                         <p className="text-[28px] font-semibold">04</p>
                         <div>
-                            <p className="text-[13px] md:text-[16px] font-semibold">How can I be sure that my donation is used effectively?</p>
+                            <p className="text-[13px] md:text-[16px] font-semibold">How can I benefit from PLEF?</p>
                             {displayText4}
                         </div>
                     </div>
@@ -111,11 +111,11 @@ const Section7 = () => {
                         {icon4}
                     </div>
                 </div>
-                <div className=" flex flex-row justify-between items-center px-[30px] h-[120px] md:h-[72px] bg-white rounded-md">
+                <div className=" flex flex-row justify-between items-center px-[30px] h-[100px] md:h-[72px] bg-white rounded-md">
                     <div className="flex flex-row items-center space-x-[20px]">
                         <p className="text-[28px] font-semibold">05</p>
                         <div>
-                            <p className="text-[13px] md:text-[16px] font-semibold">What is the impact of ForHelp's work?</p>
+                            <p className="text-[13px] md:text-[16px] font-semibold">Who is eligible to benefit from PLEF?</p>
                             {displayText5}
                         </div>
                     </div>

@@ -18,8 +18,8 @@ const Section6 = () => {
     return (
         <div className="mt-[50px] px-[5px] lg:px-[50px]">
             <div className="text-center">
-                <p className="text-[28px] font-semibold">Spreading Smiles, Changing Lives</p>
-                <p className="text-[13px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio maxime nobis dolorum distinctio dolor minus magni, ratione rem vero <br /> dignissimos delectus ipsa quod. Expedita animi veritatis quas laboriosam mollitia?</p>
+                <p className="text-[28px] font-semibold">Small Supports, Big Impact</p>
+                <p className="text-[13px]">PLEF is humbled by the Youths whose academic & vocational journey was propelled by our little recognition and reward</p>
             </div>
 
             <div className="border-[#FFD4A1] rounded-lg border-[5px] mt-[30px] bg-slate-100 px-[50px] md:px-[100px] py-[40px]">

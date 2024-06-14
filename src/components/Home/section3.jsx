@@ -19,7 +19,7 @@ const Section3 = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center bg-white rounded-lg p-[20px]">
+                    <div className="flex flex-col justify-center bg-white rounded-lg p-[20px]">
                         <div className="flex flex-row gap-[10px] justify-normal items-center border-b-[2px] pb-[20px]">
                             <div className="h-[40px] w-[40px] bg-[#F7941D] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">01</div>
                             <p className="text-[13px]">Enhance Education at access and quality.</p>
@@ -50,7 +50,7 @@ const Section3 = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center bg-white rounded-lg p-[20px]">
+                    <div className="flex flex-col justify-center bg-white rounded-lg p-[20px]">
                         <div className="flex flex-row gap-[10px] justify-normal items-center border-b-[2px] pb-[20px]">
                             <div className="h-[40px] w-[40px] bg-[#F7941D] rounded-full text-[20px] font-semibold flex justify-center items-center shrink-0">01</div>
                             <p className="text-[13px]">Provide scholarships 2 financial aid to at least 100 students annually.</p>
