@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { HiPlus } from "react-icons/hi2";
 import { IoMdClose } from "react-icons/io"; 
+import Acc from "./accordion";
 const Section7 = () => {
     const [displayText1, setDisplayText1] = useState('');
     const [icon1, setIcon1] = useState(<HiPlus />);
@@ -62,7 +63,9 @@ const Section7 = () => {
                 <p className="text-[28px] font-semibold">Frequently Asked Questions</p>
                 <p className="text-[13px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio maxime nobis dolorum distinctio dolor minus magni, ratione rem vero <br /> dignissimos delectus ipsa quod. Expedita animi veritatis quas laboriosam mollitia?</p>
             </div>
-            <div className="bg-[#E9E9E9] p-[15px] md:p-[30px] rounded-lg mt-[20px] flex flex-col gap-y-[20px]">
+            <div className="bg-[#e9e9e9] w-full rounded-md">
+            <Acc /></div>
+            {/*<div className="bg-[#E9E9E9] p-[15px] md:p-[30px] rounded-lg mt-[20px] flex flex-col gap-y-[20px]">
                 <div className=" flex flex-row justify-between items-center px-[30px] h-[100px] md:h-[72px] bg-white rounded-md">
                     <div className="flex flex-row items-center space-x-[20px]">
                         <p className="text-[28px] font-semibold">01</p>
@@ -123,7 +126,7 @@ const Section7 = () => {
                         {icon5}
                     </div>
                 </div>
-            </div>
+            </div>*/}
 
         </div>
     );
