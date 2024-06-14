@@ -57,12 +57,14 @@ function App() {
         </div>
 
         <div className='content'>
-          <Route path='/' element={<Home />} />
-          <Route path='/getinvolved' element={<GetInvolved />} />
-          <Route path='/donate' element={<Donate />} />
-          <Route path='/impactareas' element={<ImpactAreas />} />
-          <Route path='/successstories' element={<SuccessStories />} />
-          <Route path='/news' element={<News />} />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/getinvolved' element={<GetInvolved />} />
+            <Route path='/donate' element={<Donate />} />
+            <Route path='/impactareas' element={<ImpactAreas />} />
+            <Route path='/successstories' element={<SuccessStories />} />
+            <Route path='/news' element={<News />} />
+          </Routes>
         </div>
 
         <div className='hidden md:flex flex-row justify-between items-center bg-gray-100 rounded-full px-[20px] py-[20px] mt-[80px]'>

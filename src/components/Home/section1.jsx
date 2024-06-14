@@ -5,7 +5,7 @@ const Section1 = () => {
     return (
         <div className="mt-[40px]">
             <div className="flex flex-col justify-center items-center text-center gap-y-[20px]">
-                <p className="text-[38px] font-[600]">Transforming Lives Through <br /> Hope and Education</p>
+                <p className="text-[38px] font-[600]">Transforming Lives Through <br className="hidden md:block"/> Hope and Education</p>
                 <p className="px-[80px] text-[14px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur repudiandae numquam autem nostrum dolor maiores sapiente eaque aliquam adipisci nam quam soluta expedita dicta, voluptate vel at nisi dolores voluptates.</p>
                 <div className='flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] cursor-pointer mt-[10px]'>
                     <p className='text-[13px] font-[500]'>Donate Now</p>
