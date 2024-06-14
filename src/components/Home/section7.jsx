@@ -63,7 +63,7 @@ const Section7 = () => {
                 <p className="text-[13px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio maxime nobis dolorum distinctio dolor minus magni, ratione rem vero <br /> dignissimos delectus ipsa quod. Expedita animi veritatis quas laboriosam mollitia?</p>
             </div>
             <div className="bg-[#E9E9E9] p-[15px] md:p-[30px] rounded-lg mt-[20px] flex flex-col gap-y-[20px]">
-                <div className=" flex flex-row justify-between items-center px-[30px] h-[72px] bg-white rounded-md">
+                <div className=" flex flex-row justify-between items-center px-[30px] h-[100px] md:h-[72px] bg-white rounded-md">
                     <div className="flex flex-row items-center space-x-[20px]">
                         <p className="text-[28px] font-semibold">01</p>
                         <div>
@@ -75,7 +75,7 @@ const Section7 = () => {
                         {icon1}
                     </div>
                 </div>
-                <div className=" flex flex-row justify-between items-center px-[30px] h-[72px] bg-white rounded-md">
+                <div className=" flex flex-row justify-between items-center px-[30px] h-[100px] md:h-[72px] bg-white rounded-md">
                     <div className="flex flex-row items-center space-x-[20px]">
                         <p className="text-[28px] font-semibold">02</p>
                         <div>
@@ -87,7 +87,7 @@ const Section7 = () => {
                         {icon2}
                     </div>
                 </div>
-                <div className=" flex flex-row justify-between items-center px-[30px] h-[72px] bg-white rounded-md">
+                <div className=" flex flex-row justify-between items-center px-[30px] h-[100px] md:h-[72px] bg-white rounded-md">
                     <div className="flex flex-row items-center space-x-[20px]">
                         <p className="text-[28px] font-semibold">03</p>
                         <div>
@@ -99,7 +99,7 @@ const Section7 = () => {
                         {icon3}
                     </div>
                 </div>
-                <div className=" flex flex-row justify-between items-center px-[30px] h-[72px] bg-white rounded-md">
+                <div className=" flex flex-row justify-between items-center px-[30px] h-[120px] md:h-[72px] bg-white rounded-md">
                     <div className="flex flex-row items-center space-x-[20px]">
                         <p className="text-[28px] font-semibold">04</p>
                         <div>
@@ -111,7 +111,7 @@ const Section7 = () => {
                         {icon4}
                     </div>
                 </div>
-                <div className=" flex flex-row justify-between items-center px-[30px] h-[72px] bg-white rounded-md">
+                <div className=" flex flex-row justify-between items-center px-[30px] h-[120px] md:h-[72px] bg-white rounded-md">
                     <div className="flex flex-row items-center space-x-[20px]">
                         <p className="text-[28px] font-semibold">05</p>
                         <div>
