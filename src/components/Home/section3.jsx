@@ -5,7 +5,7 @@ const Section3 = () => {
             <div className="text-center flex flex-col justify-center items-center gap-[10px]">
                 <p className="text-[28px] font-semibold">Empowering Children, Creating Futures</p>
                 <p className="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo nesciunt est similique quidem, dignissimos pariatur ad eligendi! <br /> Aperiam harum exercitationem aut incidunt quos, perferendis vero suscipit doloribus dolorum veritatis!</p>
-                <p className="text-[13px] font-medium rounded-full px-[10px] py-[10px] bg-[#E9E9E9] mt-[20px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo nesciunt est similique quidem, dignissimos pariatur ad eligendi! </p>
+                <p className="text-[13px] font-medium rounded-lg md:rounded-full px-[10px] py-[10px] bg-[#E9E9E9] mt-[20px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo nesciunt est similique quidem, dignissimos pariatur ad eligendi! </p>
             </div>
 
             <div className="flex flex-row justify-center items-center px-[20px] lg:px-[50px] gap-x-[30px] mt-[20px] md:h-[660px] lg:h-[520px]">
