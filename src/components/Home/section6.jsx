@@ -38,49 +38,49 @@ const Section6 = () => {
               tab === -3
                 ? "bg-[#F7941D] h-[29px] w-[29px] md:h-[40px] md:w-[40px]"
                 : "bg-[#E9E9E9]"
-            } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0`}
+            } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0  transition duration-300 ease-in-out`}
           ></div>
           <div
             className={`${
               tab === -2
                 ? "bg-[#F7941D] h-[29px] w-[29px] md:h-[40px] md:w-[40px]"
                 : "bg-[#E9E9E9]"
-            } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0`}
+            } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0 transition duration-300 ease-in-out`}
           ></div>
           <div
             className={`${
               tab === -1
                 ? "bg-[#F7941D] h-[29px] w-[29px] md:h-[40px] md:w-[40px]"
                 : "bg-[#E9E9E9]"
-            } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0`}
+            } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0  transition duration-300 ease-in-out`}
           ></div>
           <div
             className={`${
               tab === 0
                 ? "bg-[#F7941D] h-[29px] w-[29px] md:h-[40px] md:w-[40px]"
                 : "bg-[#E9E9E9]"
-            } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0`}
+            } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0  transition duration-300 ease-in-out`}
           ></div>
           <div
             className={`${
               tab === 1
                 ? "bg-[#F7941D] h-[29px] w-[29px] md:h-[40px] md:w-[40px]"
                 : "bg-[#E9E9E9]"
-            } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0`}
+            } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0  transition duration-300 ease-in-out`}
           ></div>
           <div
             className={`${
               tab === 2
                 ? "bg-[#F7941D] h-[29px] w-[29px] md:h-[40px] md:w-[40px]"
                 : "bg-[#E9E9E9]"
-            } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0`}
+            } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0  transition duration-300 ease-in-out`}
           ></div>
           <div
             className={`${
               tab === 3
                 ? "bg-[#F7941D] h-[29px] w-[29px] md:h-[40px] md:w-[40px]"
                 : "bg-[#E9E9E9]"
-            } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0`}
+            } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0  transition duration-300 ease-in-out`}
           ></div>
           <div
             className="h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full bg-[#F7941D] flex justify-center items-center border-[3px] border-[#E9E9E9] shrink-0"
