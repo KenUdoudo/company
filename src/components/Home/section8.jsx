@@ -1,7 +1,7 @@
 import { HiArrowUpRight } from "react-icons/hi2";
 const Section8 = () => {
     return (
-        <div className="px-[20px] lg:px-[50px] mt-[50px] ">
+        <div className="px-[0] md:px-[20px] lg:px-[50px] mt-[50px] ">
             <div  className="bg-[#F7941D] py-[50px] rounded-lg flex flex-col justify-center items-center px-[10px] md:px-[40px]">
                 <p className="text-[28px] font-semibold text-center">Support PLEF to unlock the vast and <br className="hidden md:block"/> robust human capital in Nigerians</p>
                 <p className="text-[13px] text-center">Your contributions will help PLEF recognize & incentivizethe innovative minds in the Nation</p>

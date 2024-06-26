@@ -1,7 +1,7 @@
 import { HiArrowUpRight } from "react-icons/hi2";
 const Section4 = () => {
     return (
-        <div className="px-[20px] lg:px-[50px] mt-[70px]">
+        <div className="px-[0] md:px-[20px] lg:px-[50px] mt-[70px]">
             <div className="flex flex-col justify-center items-center">
                 <div className="bg-[#FFD4A1] rounded-lg border-[5px] h-[200px] md:h-[300px] w-full"></div>
                 <div className="flex flex-col justify-center items-center text-center w-[90%] md:w-[70%] bg-white mt-[-100px] p-[30px] rounded-lg">
