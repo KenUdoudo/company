@@ -22,7 +22,7 @@ function App() {
   return (
     <Router>
       <div className="px-[20px] lg:px-[50px] font-monts">
-        <div className="flex flex-row justify-between items-center bg-white md:bg-gray-100 rounded-full px-[15px] py-[15px] mt-[10px] w-full">
+        <div className="flex flex-row justify-between items-center bg-white md:bg-gray-100 rounded-full px-[15px] py-[15px] mt-[10px] md:mt-[30px] w-full">
           <div className=" w-[100px]">
             <img src={logo} />
           </div>
