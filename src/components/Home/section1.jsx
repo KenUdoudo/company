@@ -39,7 +39,7 @@ const Section1 = () => {
         <div className="w-[90%] md:w-[25%] md:h-[350px] flex flex-col-reverse md:flex-col justify-normal items-center gap-[10px] mt-[0px] md:mt-[40px] lg:mt-[260px]">
           <div className="w-full flex flex-row justify-start items-center gap-[4px] rounded-full px-[10px] py-[7px] bg-gray-100">
             <p className="text-[13px] text-nowrap">
-              Unlocking the Nigerian Youth potential.
+              Unlocking the Nigerian Youth potential
             </p>
           </div>
           <div className="bg-[#FFD4A1] rounded-md px-[20px] py-[15px]">
@@ -70,7 +70,7 @@ const Section1 = () => {
 
         <div className="w-[90%] md:w-[25%] h-[300px] lg:h-[400px] flex flex-col-reverse md:flex-col justify-normal items-center gap-[10px]">
           <div className="flex flex-row justify-center items-center space-x-1 rounded-full px-[7px] py-[7px] bg-gray-100 w-full">
-            <p className="text-[13px]">Spark up Nigeria.</p>
+            <p className="text-[13px]">Spark up Nigeria</p>
             <HiArrowUpRight />
           </div>
           <div className="h-[75%] w-full bg-[#FFD4A1] rounded-md flex flex-col justify-center text-[13px] px-[20px] md:px-[10px] lg:px-[25px] py-[10px]">

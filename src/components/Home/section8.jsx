@@ -8,7 +8,7 @@ const Section8 = () => {
           robust human capital in Nigerians
         </p>
         <p className="text-[13px] text-center">
-          Your contributions will help PLEF recognize & incentivizethe
+          Your contributions will help PLEF recognize & incentivize the
           innovative minds in the Nation
         </p>
         <div className="h-[58px] mt-[20px] flex flex-row justify-center items-center rounded-full px-[10px] gap-x-[10px] bg-[#FFD4A1] md:w-full">
