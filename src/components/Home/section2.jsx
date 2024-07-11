@@ -1,6 +1,6 @@
 const Section2 = () => {
   return (
-    <div className="w-full">
+    <div className="w-full mt-[20px] md:mt-[10px] lg:mt-0">
       <div className="text-center">
         <p className="text-[28px] font-semibold">
           Building The Nigerian capacity
