@@ -3,17 +3,17 @@ import { IoIosSunny } from "react-icons/io";
 import { HiSparkles } from "react-icons/hi2";
 const Section1 = () => {
   return (
-    <div className="mt-[40px] md:mt-[20px]">
-      <div className="flex flex-col justify-center items-center text-center gap-y-[4px]">
+    <div className="mt-[40px] md:mt-[80px]">
+      <div className="flex flex-col justify-center items-center text-center">
         <p className="text-[38px] font-[600]">
           Incentivizing Academic Excellence <br className="hidden md:block" /> &
           Capacity Building
         </p>
-        <p className="px-[30px] md:px-[80px] text-[14px]">
+        <p className="px-[30px] md:px-[80px] text-[14px] md:mt-[-5px]">
           PLEF is incentivizing academic & vocational excellence to build the
           capacity of Nigerian Youths.
         </p>
-        <div className="flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] cursor-pointer mt-[10px]">
+        <div className="flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] cursor-pointer mt-[30px]">
           <p className="text-[13px] font-[500]">Join the movement</p>
           <div className="h-[25px] w-[25px] rounded-full border-[1px] bg-[#FFD4A1] flex justify-center items-center">
             <HiArrowUpRight />

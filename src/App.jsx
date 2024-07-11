@@ -21,7 +21,7 @@ function App() {
   };
   return (
     <Router>
-      <div className="px-[20px] lg:px-[50px] font-monts max-w-[1280px] mx-auto">
+      <div className="px-[20px] lg:px-[50px] font-monts max-w-[1024px] mx-auto">
         <div className="flex flex-row justify-between items-center bg-white md:bg-gray-100 rounded-full px-[15px] py-[15px] mt-[10px] md:mt-[30px] w-full">
           <div className="flex items-center gap-[10px]">
             <div className=" w-[100px]">

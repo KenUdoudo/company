@@ -2,15 +2,15 @@ import { HiArrowUpRight } from "react-icons/hi2";
 const Section3 = () => {
   return (
     <div className="mt-[50px]">
-      <div className="text-center flex flex-col justify-center items-center gap-[10px]">
+      <div className="text-center flex flex-col justify-center items-center">
         <p className="text-[28px] font-semibold">
           Turning Small wins, into BIG Ones!
         </p>
         <p className="text-[13px]">
           We are recognizing & celebrating academic & vocational achievements at
-          a small level, to inspire the next BIG thing.{" "}
+          a small level, to inspire the next BIG thing.
         </p>
-        <p className="text-[13px] font-medium rounded-lg md:rounded-full px-[10px] py-[10px] bg-[#E9E9E9] mt-[20px]">
+        <p className="text-[13px] font-medium rounded-lg md:rounded-full px-[10px] py-[10px] bg-[#E9E9E9] mt-[50px]">
           Our foundation believes in the depth of human potential. We can unlock
           at with just enough encouragement.
         </p>
