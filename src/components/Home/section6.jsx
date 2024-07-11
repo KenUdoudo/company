@@ -28,7 +28,7 @@ const Section6 = () => {
       <div className="border-[#FFD4A1] rounded-lg border-[5px] mt-[30px] bg-slate-100 px-[50px] md:px-[100px] py-[40px]">
         <div className="flex flex-row justify-center items-center gap-x-[10px] md:gap-x-[30px]">
           <div
-            className="h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full bg-[#F7941D] flex justify-center items-center border-[3px] border-[#E9E9E9] shrink-0"
+            className="h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full bg-[#F7941D] flex justify-center items-center border-[3px] border-[#fbfcfa] shrink-0"
             onClick={decrement}
           >
             <HiMiniArrowLeft />
@@ -37,53 +37,53 @@ const Section6 = () => {
             className={`${
               tab === -3
                 ? "bg-[#F7941D] h-[29px] w-[29px] md:h-[40px] md:w-[40px]"
-                : "bg-[#E9E9E9]"
+                : "bg-[#fbfcfa]"
             } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0  transition duration-300 ease-in-out`}
           ></div>
           <div
             className={`${
               tab === -2
                 ? "bg-[#F7941D] h-[29px] w-[29px] md:h-[40px] md:w-[40px]"
-                : "bg-[#E9E9E9]"
+                : "bg-[#fbfcfa]"
             } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0 transition duration-300 ease-in-out`}
           ></div>
           <div
             className={`${
               tab === -1
                 ? "bg-[#F7941D] h-[29px] w-[29px] md:h-[40px] md:w-[40px]"
-                : "bg-[#E9E9E9]"
+                : "bg-[#fbfcfa]"
             } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0  transition duration-300 ease-in-out`}
           ></div>
           <div
             className={`${
               tab === 0
                 ? "bg-[#F7941D] h-[29px] w-[29px] md:h-[40px] md:w-[40px]"
-                : "bg-[#E9E9E9]"
+                : "bg-[#fbfcfa]"
             } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0  transition duration-300 ease-in-out`}
           ></div>
           <div
             className={`${
               tab === 1
                 ? "bg-[#F7941D] h-[29px] w-[29px] md:h-[40px] md:w-[40px]"
-                : "bg-[#E9E9E9]"
+                : "bg-[#fbfcfa]"
             } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0  transition duration-300 ease-in-out`}
           ></div>
           <div
             className={`${
               tab === 2
                 ? "bg-[#F7941D] h-[29px] w-[29px] md:h-[40px] md:w-[40px]"
-                : "bg-[#E9E9E9]"
+                : "bg-[#fbfcfa]"
             } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0  transition duration-300 ease-in-out`}
           ></div>
           <div
             className={`${
               tab === 3
                 ? "bg-[#F7941D] h-[29px] w-[29px] md:h-[40px] md:w-[40px]"
-                : "bg-[#E9E9E9]"
+                : "bg-[#fbfcfa]"
             } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0  transition duration-300 ease-in-out`}
           ></div>
           <div
-            className="h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full bg-[#F7941D] flex justify-center items-center border-[3px] border-[#E9E9E9] shrink-0"
+            className="h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full bg-[#F7941D] flex justify-center items-center border-[3px] border-[#fbfcfa] shrink-0"
             onClick={increment}
           >
             <HiMiniArrowRight />
