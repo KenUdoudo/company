@@ -9,7 +9,7 @@ const Section4 = () => {
           <p className="text-[13px]">
             Empowering Nigerian youth to achieve academic and vocational
             excellence, fostering a culture of innovation, entrepreneurship a
-            lifelong hearing.
+            lifelong learning.
           </p>
         </div>
       </div>
@@ -27,7 +27,7 @@ const Section4 = () => {
         </div>
         <div className="flex flex-col justify-start w-full md:w-[50%] bg-white rounded-lg p-[20px] gap-[7px]">
           <div className="flex flex-row justify-between items-center ">
-            <p className="font-semibold">Catalyzing global readers</p>
+            <p className="font-semibold">Catalyzing global leaders</p>
             <HiArrowUpRight />
           </div>
           <p className="text-[13px]">
