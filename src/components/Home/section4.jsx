@@ -3,7 +3,7 @@ const Section4 = () => {
   return (
     <div className="px-[0] md:px-[20px] lg:px-[50px] mt-[70px]">
       <div className="flex flex-col justify-center items-center">
-        <div className="bg-[#FFD4A1] rounded-lg border-[5px] h-[200px] md:h-[300px] w-full"></div>
+        <div className="bg-[#FFD4A1] border-[#fbfcfa] rounded-lg border-[5px] h-[200px] md:h-[300px] w-full"></div>
         <div className="flex flex-col justify-center items-center text-center w-[90%] md:w-[70%] bg-white mt-[-100px] p-[30px] rounded-lg">
           <p className="text-[20px] md:text-[28px] font-semibold">Our Vision</p>
           <p className="text-[13px]">
@@ -14,7 +14,7 @@ const Section4 = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center bg-[#E9E9E9] p-[30px] rounded-lg mt-[30px] gap-x-[30px] gap-y-[20px]">
+      <div className="flex flex-col md:flex-row justify-center bg-[#fbfcfa] p-[30px] rounded-lg mt-[30px] gap-x-[30px] gap-y-[20px]">
         <div className="flex flex-col justify-start w-full md:w-[50%] bg-white rounded-lg p-[20px] gap-[7px]">
           <div className="flex flex-row justify-between items-center ">
             <p className="font-semibold">Empowering a self-reliant nation</p>

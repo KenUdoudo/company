@@ -25,7 +25,7 @@ const Section1 = () => {
         <div className="w-[90%] md:w-[25%] h-[300px] md:h-[350px] gap-[5px] flex flex-col justify-normal items-center">
           <div className="h-[60%] lg:h-[80%] w-full border-[2px] bg-[#FFD4A1] rounded-md"></div>
           <div className="h-[20%] w-full">
-            <div className="flex flex-row justify-start items-center gap-[4px] rounded-full px-[7px] py-[7px] bg-gray-100 cursor-pointer">
+            <div className="flex flex-row justify-start items-center gap-[4px] rounded-full px-[7px] py-[7px] bg-[#fbfcfa] cursor-pointer">
               <div className="h-[35px] w-[35px] rounded-full border-[1px] bg-[#F7941D] flex justify-center items-center">
                 <HiSparkles />
               </div>
@@ -37,7 +37,7 @@ const Section1 = () => {
         </div>
 
         <div className="w-[90%] md:w-[25%] md:h-[350px] flex flex-col-reverse md:flex-col justify-normal items-center gap-[10px] mt-[0px] md:mt-[40px] lg:mt-[260px]">
-          <div className="w-full flex flex-row justify-start items-center gap-[4px] rounded-full px-[10px] py-[7px] bg-gray-100">
+          <div className="w-full flex flex-row justify-start items-center gap-[4px] rounded-full px-[10px] py-[7px] bg-[#fbfcfa]">
             <p className="text-[13px] text-nowrap">
               Unlocking the Nigerian Youth potential
             </p>
@@ -62,14 +62,14 @@ const Section1 = () => {
               Activate local human capital.
             </p>
           </div>
-          <div className="flex flex-row justify-center items-center space-x-1 rounded-full px-[7px] py-[7px] bg-gray-100 w-full">
+          <div className="flex flex-row justify-center items-center space-x-1 rounded-full px-[7px] py-[7px] bg-[#fbfcfa] w-full">
             <p className="text-[13px]">Invest in the Youth</p>
             <HiArrowUpRight />
           </div>
         </div>
 
         <div className="w-[90%] md:w-[25%] h-[300px] lg:h-[400px] flex flex-col-reverse md:flex-col justify-normal items-center gap-[10px]">
-          <div className="flex flex-row justify-center items-center space-x-1 rounded-full px-[7px] py-[7px] bg-gray-100 w-full">
+          <div className="flex flex-row justify-center items-center space-x-1 rounded-full px-[7px] py-[7px] bg-[#fbfcfa] w-full">
             <p className="text-[13px]">Spark up Nigeria</p>
             <HiArrowUpRight />
           </div>

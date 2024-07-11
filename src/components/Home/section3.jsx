@@ -10,15 +10,15 @@ const Section3 = () => {
           We are recognizing & celebrating academic & vocational achievements at
           a small level, to inspire the next BIG thing.
         </p>
-        <p className="text-[13px] font-medium rounded-lg md:rounded-full px-[10px] py-[10px] bg-[#E9E9E9] mt-[50px]">
+        <p className="text-[13px] font-medium rounded-lg md:rounded-full px-[10px] py-[10px] bg-[#fbfcfa] mt-[50px]">
           Our foundation believes in the depth of human potential. We can unlock
           at with just enough encouragement.
         </p>
       </div>
 
       <div className="flex flex-row justify-center items-center px-[0] md:px-[20px] lg:px-[50px] gap-x-[30px] mt-[20px] md:h-[660px] lg:h-[520px]">
-        <div className="hidden md:block md:w-[45%] lg:w-[40%] bg-[#FFD4A1] rounded-lg border-[5px]  h-full"></div>
-        <div className="w-full md:w-[60%] bg-[#E9E9E9] p-[30px] rounded-lg flex flex-col justify-center gap-y-[30px] h-full">
+        <div className="hidden md:block md:w-[45%] lg:w-[40%] bg-[#FFD4A1] border-[#fbfcfa] rounded-lg border-[5px]  h-full"></div>
+        <div className="w-full md:w-[60%] bg-[#fbfcfa] p-[30px] rounded-lg flex flex-col justify-center gap-y-[30px] h-full">
           <div className="flex flex-row justify-between items-center">
             <p className="font-semibold text-[20px]">Goals</p>
             <div className="flex flex-row justify-center items-center gap-[4px] rounded-full bg-white px-[13px] py-[10px] cursor-pointer">
@@ -65,8 +65,8 @@ const Section3 = () => {
         </div>
       </div>
       <div className="flex flex-row-reverse justify-center items-center px-[0] md:px-[20px] lg:px-[50px] gap-[30px] mt-[30px] md:h-[660px] lg:h-[520px]">
-        <div className="hidden md:block md:w-[45%] lg:w-[40%] bg-[#FFD4A1] rounded-lg border-[5px] h-full"></div>
-        <div className="w-full md:w-[60%] bg-[#E9E9E9] p-[30px] rounded-lg flex flex-col justify-center space-y-[30px] h-full">
+        <div className="hidden md:block md:w-[45%] lg:w-[40%] bg-[#FFD4A1] border-[#fbfcfa] rounded-lg border-[5px] h-full"></div>
+        <div className="w-full md:w-[60%] bg-[#fbfcfa] p-[30px] rounded-lg flex flex-col justify-center space-y-[30px] h-full">
           <div className="flex flex-row justify-between items-center">
             <p className="font-semibold text-[20px]">Objectives</p>
             <div className="flex flex-row justify-center items-center gap-[4px] rounded-full bg-white px-[13px] py-[10px] cursor-pointer">
