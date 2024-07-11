@@ -3,7 +3,7 @@ import { HiPlus } from "react-icons/hi2";
 import { IoMdClose } from "react-icons/io"; 
 const AccItem = ({ number, title, content, isOpen, onToggle }) => {
     return (  
-        <div className="rounded-md bg-white mb-[20px]">
+        <div className="rounded-md bg-white mb-[20px] p-[10px]">
             <button onClick={onToggle} className="w-full text-left p-4 focus-outline-none focus:bg-gray-100 hover:bg-gray-100">
                 <div className="flex justify-between items-center">
                     <div className="flex flex-row items-center space-x-[20px]">
