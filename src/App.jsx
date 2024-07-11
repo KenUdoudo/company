@@ -21,10 +21,51 @@ function App() {
   };
   return (
     <Router>
-      <div className="px-[20px] lg:px-[50px] font-monts">
+      <div className="px-[20px] lg:px-[50px] font-monts max-w-[1280px] mx-auto">
         <div className="flex flex-row justify-between items-center bg-white md:bg-gray-100 rounded-full px-[15px] py-[15px] mt-[10px] md:mt-[30px] w-full">
-          <div className=" w-[100px]">
-            <img src={logo} />
+          <div className="flex items-center gap-[10px]">
+            <div className=" w-[100px]">
+              <img src={logo} />
+            </div>
+
+            <div className="hidden md:flex flex-row justify-center items-center gap-x-[4px]">
+            <Link
+              to="/"
+              className="hover:bg-[#E9E9E9] rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] font-[500]"
+            >
+              Home
+            </Link>
+            <Link
+              to="/gallery"
+              className="hover:bg-[#E9E9E9] rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] font-[500]"
+            >
+              Gallery
+            </Link>
+            <Link
+              to="/contribute"
+              className="hover:bg-[#E9E9E9] rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] font-[500]"
+            >
+              Contribute
+            </Link>
+            <Link
+              to="/stories"
+              className="hover:bg-[#E9E9E9] rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] font-[500]"
+            >
+              Stories
+            </Link>
+            <Link
+              to="/blog"
+              className="hover:bg-[#E9E9E9] rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] font-[500]"
+            >
+              Blog
+            </Link>
+            <Link
+              to="/aboutus"
+              className="hover:bg-[#E9E9E9] rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] font-[500]"
+            >
+              About Us
+            </Link>
+          </div>
           </div>
 
           <button onClick={toggleMenu} className="block md:hidden z-30">
@@ -82,44 +123,7 @@ function App() {
             </div>
           </div>
 
-          <div className="hidden md:flex flex-row justify-center items-center gap-x-[4px] lg:gap-x-[15px]">
-            <Link
-              to="/"
-              className="hover:bg-[#E9E9E9] rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] lg:text-[16px] font-[500]"
-            >
-              Home
-            </Link>
-            <Link
-              to="/gallery"
-              className="hover:bg-[#E9E9E9] rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] lg:text-[16px] font-[500]"
-            >
-              Gallery
-            </Link>
-            <Link
-              to="/contribute"
-              className="hover:bg-[#E9E9E9] rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] lg:text-[16px] font-[500]"
-            >
-              Contribute
-            </Link>
-            <Link
-              to="/stories"
-              className="hover:bg-[#E9E9E9] rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] lg:text-[16px] font-[500]"
-            >
-              Stories
-            </Link>
-            <Link
-              to="/blog"
-              className="hover:bg-[#E9E9E9] rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] lg:text-[16px] font-[500]"
-            >
-              Blog
-            </Link>
-            <Link
-              to="/aboutus"
-              className="hover:bg-[#E9E9E9] rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] lg:text-[16px] font-[500]"
-            >
-              About Us
-            </Link>
-          </div>
+          
           <div className="hidden md:flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] cursor-pointer">
             <p className="text-[13px] font-[500]">Contact Us</p>
             <div className="h-[25px] w-[25px] rounded-full border-[1px] bg-[#FFD4A1] flex justify-center items-center">

@@ -33,7 +33,7 @@ const Section2 = () => {
             68%
           </p>
           <p className="text-[8px] md:text-[13px]">
-            completed secondary education.
+            completed secondary education
           </p>
         </div>
       </div>
