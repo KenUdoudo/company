@@ -25,7 +25,7 @@ const Section6 = () => {
         </p>
       </div>
 
-      <div className="border-[#FFD4A1] rounded-lg border-[5px] mt-[30px] bg-slate-100 px-[50px] md:px-[100px] py-[40px]">
+      <div className="border-[#FFD4A1] rounded-lg border-[5px] mt-[30px] bg-[#fffeff] px-[50px] md:px-[100px] py-[40px]">
         <div className="flex flex-row justify-center items-center gap-x-[10px] md:gap-x-[30px]">
           <div
             className="h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full bg-[#F7941D] flex justify-center items-center border-[3px] border-[#fbfcfa] shrink-0"
