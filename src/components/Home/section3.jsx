@@ -1,4 +1,6 @@
 import { HiArrowUpRight } from "react-icons/hi2";
+import goals from './goals.png';
+import howwework from './howwework.png';
 const Section3 = () => {
   return (
     <div className="mt-[50px]">
@@ -17,7 +19,7 @@ const Section3 = () => {
       </div>
 
       <div className="flex flex-row justify-center items-center px-[0] md:px-[20px] lg:px-[50px] gap-x-[30px] mt-[20px] md:h-[660px] lg:h-[520px]">
-        <div className="hidden md:block md:w-[45%] lg:w-[40%] bg-[#FFD4A1] border-[#fbfcfa] rounded-lg border-[5px]  h-full"></div>
+        <div className="hidden md:block md:w-[45%] lg:w-[40%] bg-[#FFD4A1] border-[#fbfcfa] rounded-lg border-[5px]  h-full"><img src={ goals } className="object-cover w-full h-full"/></div>
         <div className="w-full md:w-[60%] bg-[#fbfcfa] p-[30px] rounded-lg flex flex-col justify-center gap-y-[30px] h-full">
           <div className="flex flex-row justify-between items-center">
             <p className="font-semibold text-[20px]">Goals</p>
@@ -65,7 +67,7 @@ const Section3 = () => {
         </div>
       </div>
       <div className="flex flex-row-reverse justify-center items-center px-[0] md:px-[20px] lg:px-[50px] gap-[30px] mt-[30px] md:h-[660px] lg:h-[520px]">
-        <div className="hidden md:block md:w-[45%] lg:w-[40%] bg-[#FFD4A1] border-[#fbfcfa] rounded-lg border-[5px] h-full"></div>
+        <div className="hidden md:block md:w-[45%] lg:w-[40%] bg-[#FFD4A1] border-[#fbfcfa] rounded-lg border-[5px] h-full"><img src={ howwework } className="object-cover w-full h-full"/></div>
         <div className="w-full md:w-[60%] bg-[#fbfcfa] p-[30px] rounded-lg flex flex-col justify-center space-y-[30px] h-full">
           <div className="flex flex-row justify-between items-center">
             <p className="font-semibold text-[20px]">Objectives</p>

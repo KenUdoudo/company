@@ -1,6 +1,8 @@
 import { HiArrowUpRight } from "react-icons/hi2";
 import { IoIosSunny } from "react-icons/io";
 import { HiSparkles } from "react-icons/hi2";
+import rekindle from './rekindle.png';
+import ignite from './ignite.png';
 const Section1 = () => {
   return (
     <div className="mt-[40px] md:mt-[80px]">
@@ -23,7 +25,7 @@ const Section1 = () => {
 
       <div className="mt-[30px] md:mt-0 px-[20px] lg:px-[50px] gap-x-[20px] flex flex-col md:flex-row justify-center items-center md:h-[500px]">
         <div className="w-[90%] md:w-[25%] h-[300px] md:h-[350px] gap-[5px] flex flex-col justify-normal items-center">
-          <div className="h-[60%] lg:h-[80%] w-full border-[2px] bg-[#FFD4A1] rounded-md"></div>
+          <div className="relative h-[60%] lg:h-[80%] w-full border-[2px] bg-[#FFD4A1] rounded-md overflow-hidden"><img src={ rekindle } className="absolute object-cover w-full h-full"/></div>
           <div className="h-[20%] w-full">
             <div className="flex flex-row justify-start items-center gap-[4px] rounded-full px-[7px] py-[7px] bg-[#fbfcfa] cursor-pointer">
               <div className="h-[35px] w-[35px] rounded-full border-[1px] bg-[#F7941D] flex justify-center items-center">
@@ -74,7 +76,7 @@ const Section1 = () => {
             <HiArrowUpRight />
           </div>
           <div className="h-[75%] w-full bg-[#FFD4A1] rounded-md flex flex-col justify-center text-[13px] px-[20px] md:px-[10px] lg:px-[25px] py-[10px]">
-            <div className="h-[55%] w-full bg-[#F7941D] rounded-md"></div>
+            <div className="relative h-[55%] w-full bg-[#F7941D] rounded-md overflow-hidden"><img src={ ignite } className="absolute object-cover w-full h-full"/></div>
             <p className="pt-[15px] font-semibold">Ignite the minds</p>
             <p>of Nigerians to exhume its buried potential.</p>
           </div>
