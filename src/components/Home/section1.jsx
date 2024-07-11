@@ -3,13 +3,13 @@ import { IoIosSunny } from "react-icons/io";
 import { HiSparkles } from "react-icons/hi2";
 const Section1 = () => {
   return (
-    <div className="mt-[40px]">
-      <div className="flex flex-col justify-center items-center text-center gap-y-[20px]">
+    <div className="mt-[40px] md:mt-[20px]">
+      <div className="flex flex-col justify-center items-center text-center gap-y-[4px]">
         <p className="text-[38px] font-[600]">
           Incentivizing Academic Excellence <br className="hidden md:block" /> &
           Capacity Building
         </p>
-        <p className="px-[80px] text-[14px]">
+        <p className="px-[30px] md:px-[80px] text-[14px]">
           PLEF is incentivizing academic & vocational excellence to build the
           capacity of Nigerian Youths.
         </p>
