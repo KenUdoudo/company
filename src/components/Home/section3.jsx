@@ -41,7 +41,7 @@ const Section3 = () => {
                 02
               </div>
               <p className="text-[13px]">
-                More vocational shill development & entrepreneurship.
+                More vocational skills development & entrepreneurship.
               </p>
             </div>
             <div className="flex flex-row gap-[10px] justify-normal items-center border-b-[2px] pt-[15px] pb-[20px]">
@@ -49,7 +49,7 @@ const Section3 = () => {
                 03
               </div>
               <p className="text-[13px]">
-                Foster a culture of academic a vocational excellence.
+                Foster a culture of academic and vocational excellence.
               </p>
             </div>
             <div className="flex flex-row gap-[10px] justify-normal items-center pt-[15px]">
@@ -57,7 +57,7 @@ const Section3 = () => {
                 04
               </div>
               <p className="text-[13px]">
-                Build strong partnership with communities, schools 2 businesses
+                Build strong partnership with communities, schools and businesses
                 to support youth development initiatives.
               </p>
             </div>
@@ -81,7 +81,7 @@ const Section3 = () => {
                 01
               </div>
               <p className="text-[13px]">
-                Provide scholarships 2 financial aid to at least 100 students
+                Provide scholarships and financial aid to at least 100 students
                 annually.
               </p>
             </div>
@@ -90,8 +90,8 @@ const Section3 = () => {
                 02
               </div>
               <p className="text-[13px]">
-                Partner with local businesses to secure Intersi ship 2
-                apprenticeship opportunities for at least 50 train each year.
+                Partner with local businesses to secure internship and
+                apprenticeship opportunities for at least 50 trainees each year.
               </p>
             </div>
             <div className="flex flex-row gap-[10px] justify-normal items-center border-b-[2px] pt-[15px] pb-[20px]">
@@ -108,7 +108,7 @@ const Section3 = () => {
                 04
               </div>
               <p className="text-[13px]">
-                Introduce life shills 2L leadership training modules into all
+                Introduce life skills and leadership training modules into all
                 educational & Vocational programs.
               </p>
             </div>
