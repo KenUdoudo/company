@@ -67,7 +67,7 @@ const Section7 = () => {
           laboriosam mollitia?
         </p>
       </div>
-      <div className="bg-[#e9e9e9] w-full rounded-md mt-[50px]">
+      <div className="bg-[#e9e9e9] w-full rounded-md mt-[50px] p-[20px]">
         <Acc />
       </div>
     </div>

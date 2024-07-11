@@ -22,7 +22,7 @@ function App() {
   return (
     <Router>
       <div className="px-[20px] lg:px-[50px] font-monts max-w-[1024px] mx-auto">
-        <div className="flex flex-row justify-between items-center bg-white md:bg-gray-100 rounded-full px-[15px] py-[15px] mt-[10px] md:mt-[30px] w-full">
+        <div className="flex flex-row justify-between items-center bg-white md:bg-[#fbfcfa] rounded-full px-[15px] py-[15px] mt-[10px] md:mt-[30px] w-full">
           <div className="flex items-center gap-[10px]">
             <div className=" w-[100px]">
               <img src={logo} />
@@ -31,7 +31,7 @@ function App() {
             <div className="hidden md:flex flex-row justify-center items-center gap-x-[4px]">
             <Link
               to="/"
-              className="hover:bg-[#E9E9E9] rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] font-[500]"
+              className="hover:bg-[#dee4d5] rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] font-[500]"
             >
               Home
             </Link>
@@ -143,7 +143,7 @@ function App() {
           </Routes>
         </div>
 
-        <div className="hidden md:flex flex-row justify-between items-center bg-gray-100 rounded-full px-[20px] py-[20px] mt-[80px]">
+        <div className="hidden md:flex flex-row justify-between items-center bg-[#fbfcfa] rounded-full px-[20px] py-[20px] mt-[80px]">
           <div className=" w-[100px]">
             <img src={logo} />
           </div>
