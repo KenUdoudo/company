@@ -35,7 +35,7 @@ const Section3 = () => {
                 01
               </div>
               <p className="text-[13px]">
-                Enhance Education at access and quality.
+                Enhance Education access and quality.
               </p>
             </div>
             <div className="flex flex-row gap-[10px] justify-normal items-center border-b-[2px] pt-[15px] pb-[20px]">
