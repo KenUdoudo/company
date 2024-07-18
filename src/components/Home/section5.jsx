@@ -4,7 +4,7 @@ const Section5 = () => {
   return (
     <div className="px-[0] md:px-[20px] lg:px-[50px] mt-[70px]">
       <div className="flex flex-col justify-center items-center">
-        <div className="bg-[#FFD4A1] rounded-lg border-[#fbfcfa] border-[5px] h-[200px] md:h-[300px] w-full"><img src={ ourprocess } className="object-cover w-full h-full"/></div>
+        <div className="bg-[#FFD4A1] rounded-lg border-[#fbfcfa] border-[5px] h-[200px] md:h-[300px] w-full"><img src={ ourprocess } className="object-cover w-full h-full object-top"/></div>
         <div className="flex flex-col justify-center items-center text-center w-[90%] md:w-[70%] bg-white mt-[-100px] p-[30px] rounded-lg">
           <p className="text-[20px] md:text-[28px] font-semibold">
             Our Process
