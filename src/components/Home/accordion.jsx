@@ -14,7 +14,7 @@ const AccItem = ({ number, title, content, isOpen, onToggle }) => {
                 </div>
             </button>
             {isOpen && (
-                <div className="p-4 bg-gray-50">
+                <div className="p-4 bg-gray-50 text-[13px]">
                     { content }
                 </div>
             )}

@@ -61,10 +61,7 @@ const Section7 = () => {
       <div className="text-center">
         <p className="text-[28px] font-semibold">Frequently Asked Questions</p>
         <p className="text-[13px]">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio
-          maxime nobis dolorum distinctio dolor minus magni, ratione rem vero{" "}
-          <br /> dignissimos delectus ipsa quod. Expedita animi veritatis quas
-          laboriosam mollitia?
+          We get asked a lot of questions. We've listed out the answers to some of the questions often asked.
         </p>
       </div>
       <div className="bg-[#fbfcfa] w-full rounded-md mt-[50px] md:p-[20px]">
