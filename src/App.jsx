@@ -28,7 +28,7 @@ function App() {
               <img src={logo} />
             </div>
 
-            <div className="hidden md:flex flex-row justify-center items-center gap-x-[4px]">
+            <div className="hidden flex-row justify-center items-center gap-x-[4px]">
             <Link
               to="/"
               className="hover:bg-[#fbfcfa] rounded-full px-[10px] lg:px-[15px] py-[3px] text-nowrap text-[13px] font-[500]"
@@ -77,7 +77,7 @@ function App() {
               isOpen ? "-translate-x-0" : "translate-x-full"
             } transition-transform duration-500 ease-in-out overflow-hidden`}
           >
-            <div className="flex flex-col items-start gap-y-[20px] px-[20px] py-[20px]">
+            <div className="hidden flex-col items-start gap-y-[20px] px-[20px] py-[20px]">
               <Link
                 to="/"
                 className=" hover:bg-[#E9E9E9] rounded-full px-[15px] py-[3px] text-[16px] font-[500]"
@@ -147,7 +147,7 @@ function App() {
           <div className=" w-[100px]">
             <img src={logo} />
           </div>
-          <div className="flex flex-row justify-center items-center gap-x-[4px] lg:gap-x-[15px]">
+          <div className="hidden flex-row justify-center items-center gap-x-[4px] lg:gap-x-[15px]">
             <Link
               to="/"
               className="rounded-full px-[15px] py-[3px] text-nowrap text-[13px] font-[500]"
