@@ -15,12 +15,12 @@ const Section1 = () => {
           PLEF is incentivizing academic & vocational excellence to build the
           capacity of Nigerian Youths.
         </p>
-        <div className="flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] cursor-pointer mt-[30px]">
+        <a href="https://forms.gle/mrtiZDzKxD49rBrN8"><div className="flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] cursor-pointer mt-[30px]">
           <p className="text-[13px] font-[500]">Join the movement</p>
           <div className="h-[25px] w-[25px] rounded-full border-[1px] bg-[#FFD4A1] flex justify-center items-center">
             <HiArrowUpRight />
           </div>
-        </div>
+        </div></a>
       </div>
 
       <div className="mt-[30px] md:mt-0 px-[20px] lg:px-[50px] gap-x-[20px] flex flex-col md:flex-row justify-center items-center md:h-[500px]">
