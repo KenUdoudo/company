@@ -6,7 +6,7 @@ import ImpactAreas from "./pages/impact";
 import SuccessStories from "./pages/success";
 import News from "./pages/News";
 import { HiMiniEnvelope } from "react-icons/hi2";
-import { IoLogoFacebook } from "react-icons/io";
+import { RiInstagramFill } from "react-icons/ri";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import logo from "./assets/newlogo.svg";
@@ -186,15 +186,15 @@ function App() {
             </Link>
           </div>
           <div className="flex flex-row justify-center items-center space-x-[10px]">
-            <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center">
-              <IoLogoFacebook />
-            </div>
-            <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center">
+            <a href="https://www.instagram.com/officialplef/"><div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center">
+              <RiInstagramFill />
+            </div></a>
+            <a href="https://x.com/officialplef"><div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center">
               <FaTwitter />
-            </div>
-            <div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center">
+            </div></a>
+            <a href="https://www.linkedin.com/company/91017212/admin/dashboard/"><div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center">
               <FaLinkedin />
-            </div>
+            </div></a>
           </div>
         </div>
         <p className="text-[13px] text-center text-[#8f8d8d] py-[30px]">
