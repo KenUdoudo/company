@@ -15,12 +15,12 @@ const Section8 = () => {
           <div className="hidden md:block md:pl-[20px] text-[14px] w-[520px] text-black grow outline-none bg-transparent font-semibold cursor-default">
             To get started with contributing...
           </div>
-          <div className="flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] cursor-pointer">
+          <a href="https://forms.gle/mrtiZDzKxD49rBrN8"><div className="flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] cursor-pointer">
             <p className="text-[13px] font-[500] text-nowrap">Contribute</p>
             <div className="h-[25px] w-[25px] rounded-full border-[1px] bg-orange-100 flex justify-center items-center">
               <HiArrowUpRight />
             </div>
-          </div>
+          </div></a>
         </div>
       </div>
     </div>
