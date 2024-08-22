@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { HiMiniArrowLeft } from "react-icons/hi2";
 import { HiMiniArrowRight } from "react-icons/hi2";
+import { FaQuoteRight } from "react-icons/fa";
 const Section6 = () => {
   const [tab, setTab] = useState(0);
 
@@ -91,7 +92,7 @@ const Section6 = () => {
         </div>
         <div className="px-[10px] md:px-[50px] md:border-[5px] rounded-lg border-white flex justify-center items-center mt-[20px]">
           <div className="flex flex-row justify-center gap-x-[20px] py-[50px]">
-            <div className="border-[3px] h-[80px] w-[60px] shrink-0 hidden md:block"></div>
+            <div className="shrink-0 hidden md:block"><FaQuoteRight className="h-[80px] w-[80px]"/></div>
             {tab === -3 && (
               <div className="flex flex-col gap-[20px]">
                 <p className="text-[20px] font-semibold">
