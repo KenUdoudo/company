@@ -4,7 +4,7 @@ import GetInvolved from "./pages/getinvolved";
 import Donate from "./pages/donate";
 import ImpactAreas from "./pages/impact";
 import SuccessStories from "./pages/success";
-import News from "./pages/News";
+import About from "./pages/About";
 import { HiMiniEnvelope } from "react-icons/hi2";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaTwitter } from "react-icons/fa";
@@ -139,7 +139,7 @@ function App() {
             <Route path="/contribute" element={<Donate />} />
             <Route path="/stories" element={<ImpactAreas />} />
             <Route path="/blog" element={<SuccessStories />} />
-            <Route path="/aboutus" element={<News />} />
+            <Route path="/aboutus" element={<About />} />
           </Routes>
         </div>
 
