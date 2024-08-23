@@ -1,6 +1,7 @@
 import { HiArrowUpRight } from "react-icons/hi2";
 import goals from './goals.png';
 import howwework from './howwework.png';
+import { Link } from "react-router-dom";
 const Section3 = () => {
   return (
     <div className="mt-[50px]">
@@ -23,10 +24,10 @@ const Section3 = () => {
         <div className="w-full md:w-[60%] bg-[#fbfcfa] p-[30px] rounded-lg flex flex-col justify-center gap-y-[30px] h-full">
           <div className="flex flex-row justify-between items-center">
             <p className="font-semibold text-[20px]">Goals</p>
-            <div className="flex flex-row justify-center items-center gap-[4px] rounded-full bg-white px-[13px] py-[10px] cursor-pointer">
+            <Link to='/aboutus'><div className="flex flex-row justify-center items-center gap-[4px] rounded-full bg-white px-[13px] py-[10px] cursor-pointer">
               <p className="text-[13px] font-roboto font-[500]">Learn More</p>
               <HiArrowUpRight />
-            </div>
+            </div></Link>
           </div>
 
           <div className="flex flex-col justify-center bg-white rounded-lg p-[20px]">
