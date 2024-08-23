@@ -115,7 +115,7 @@ function App() {
                 About Us
               </Link>
             </div>
-            <a href="mailto:officialplefoundation@gmail.com"><div className="flex flex-row justify-center items-center gap-[4px] px-[13px] py-[10px] bg-[#F7941D] cursor-pointer">
+            <a href="mailto:officialplefoundation@gmail.com"><div className="flex flex-row justify-center items-center gap-[4px] px-[13px] py-[10px] bg-[#F7941D] hover:bg-[#c28438] cursor-pointer">
               <p className="text-[13px] font-[500]">Contact Us</p>
               <div className="h-[25px] w-[25px] rounded-full border-[1px] bg-[#FFD4A1] flex justify-center items-center">
                 <HiMiniEnvelope />
@@ -124,7 +124,7 @@ function App() {
           </div>
 
           
-          <a href="mailto:officialplefoundation@gmail.com" className="hidden md:block"><div className="flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] cursor-pointer">
+          <a href="mailto:officialplefoundation@gmail.com" className="hidden md:block"><div className="flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] hover:bg-[#c28438] cursor-pointer">
             <p className="text-[13px] font-[500]">Contact Us</p>
             <div className="h-[25px] w-[25px] rounded-full border-[1px] bg-[#FFD4A1] flex justify-center items-center">
               <HiMiniEnvelope />
@@ -186,13 +186,13 @@ function App() {
             </Link>
           </div>
           <div className="flex flex-row justify-center items-center space-x-[10px]">
-            <a href="https://www.instagram.com/officialplef/"><div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center">
+            <a href="https://www.instagram.com/officialplef/"><div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] hover:bg-[#c28438] flex justify-center items-center">
               <RiInstagramFill />
             </div></a>
-            <a href="https://x.com/officialplef"><div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center">
+            <a href="https://x.com/officialplef"><div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] hover:bg-[#c28438] flex justify-center items-center">
               <FaTwitter />
             </div></a>
-            <a href="https://www.linkedin.com/company/91017212/admin/dashboard/"><div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center">
+            <a href="https://www.linkedin.com/company/91017212/admin/dashboard/"><div className="h-[30px] w-[30px] rounded-full bg-[#F7941D] hover:bg-[#c28438] flex justify-center items-center">
               <FaLinkedin />
             </div></a>
           </div>
