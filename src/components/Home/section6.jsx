@@ -29,7 +29,7 @@ const Section6 = () => {
       <div className="border-[#FFD4A1] rounded-lg border-[5px] mt-[30px] bg-[#fffeff] px-[50px] md:px-[100px] py-[40px]">
         <div className="flex flex-row justify-center items-center gap-x-[10px] md:gap-x-[30px]">
           <div
-            className="h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full bg-[#F7941D] flex justify-center items-center border-[3px] border-[#fbfcfa] shrink-0"
+            className="h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full bg-[#F7941D] hover:bg-[#c28438] flex justify-center items-center border-[3px] border-[#fbfcfa] shrink-0"
             onClick={decrement}
           >
             <HiMiniArrowLeft />
@@ -84,7 +84,7 @@ const Section6 = () => {
             } h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full shrink-0  transition duration-300 ease-in-out`}
           ></div>
           <div
-            className="h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full bg-[#F7941D] flex justify-center items-center border-[3px] border-[#fbfcfa] shrink-0"
+            className="h-[25px] w-[25px] md:h-[32px] md:w-[32px] rounded-full bg-[#F7941D] hover:bg-[#c28438] flex justify-center items-center border-[3px] border-[#fbfcfa] shrink-0"
             onClick={increment}
           >
             <HiMiniArrowRight />

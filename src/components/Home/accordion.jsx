@@ -10,7 +10,7 @@ const AccItem = ({ number, title, content, isOpen, onToggle }) => {
                         <span className="text-[28px] font-semibold">{number}</span>
                         <span className="text-[13px] md:text-[16px] font-semibold">{title}</span>
                     </div>
-                    <span className="h-[30px] w-[30px] rounded-full bg-[#F7941D] flex justify-center items-center shrink-0">{isOpen ? <IoMdClose /> : <HiPlus />}</span>
+                    <span className="h-[30px] w-[30px] rounded-full bg-[#F7941D] hover:bg-[#c28438] flex justify-center items-center shrink-0">{isOpen ? <IoMdClose /> : <HiPlus />}</span>
                 </div>
             </button>
             {isOpen && (
