@@ -115,7 +115,7 @@ function App() {
                 About Us
               </Link>
             </div>
-            <a href="mailto:officialplefoundation@gmail.com"><div className="flex flex-row justify-center items-center gap-[4px] px-[13px] py-[10px] bg-[#F7941D] hover:bg-[#c28438] cursor-pointer">
+            <a href="mailto:officialplefoundation@gmail.com"><div className="flex flex-row justify-center items-center gap-[4px] px-[13px] py-[10px] bg-[#F7941D] hover:bg-[#c28438] cursor-pointer mt-[80px]">
               <p className="text-[13px] font-[500]">Contact Us</p>
               <div className="h-[25px] w-[25px] rounded-full border-[1px] bg-[#FFD4A1] flex justify-center items-center">
                 <HiMiniEnvelope />
