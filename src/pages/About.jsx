@@ -1,4 +1,5 @@
 import Intro from "../components/About/intro";
+import Metrics from "../components/About/metrics";
 import Story from "../components/About/ourstory";
 
 const About = () => {
@@ -7,6 +8,8 @@ const About = () => {
             <Intro />
 
             <Story />
+
+            <Metrics />
         </div>
     );
 }
