@@ -17,11 +17,17 @@ const Metrics = () => {
                     <p className="text-[20px] font-[600]">MAU</p>
                     <p className="text-[20px] font-[400]">Monthly Active Users</p></div>
                 </div>
-                <div className="flex flex-col gap-[10px] p-[20px] w-[30%] bg-[#d0e3ff] rounded-[25px]">
-                    <p className="text-[30px] font-[600]">$18</p>
+                <div className="flex flex-col gap-[10px] p-[20px] w-[30%] bg-[#ead8fc] rounded-[25px]">
+                    <p className="text-[30px] font-[600]">$18.94M</p>
                     <div className="flex flex-col gap-[10px]">
-                    <p className="text-[20px] font-[600]">MRR</p>
-                    <p className="text-[20px] font-[400]">Monthly Recurring Revenue</p></div>
+                    <p className="text-[20px] font-[600]">ARR</p>
+                    <p className="text-[20px] font-[400]">Annual Recurring Revenue</p></div>
+                </div>
+                <div className="flex flex-col gap-[10px] p-[20px] w-[30%] bg-[#e7f8c7] rounded-[25px]">
+                    <p className="text-[30px] font-[600]">$27.65</p>
+                    <div className="flex flex-col gap-[10px]">
+                    <p className="text-[20px] font-[600]">ARPU</p>
+                    <p className="text-[20px] font-[400]">Average Revenue Per User</p></div>
                 </div>
             </div>
         </div>
