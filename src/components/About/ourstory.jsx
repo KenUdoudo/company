@@ -15,7 +15,7 @@ const Story = () => {
                 <p className="text-[40px] font-[700]">Our Story</p>
                 <p className="text-[16px]">Named after the founder, Piuonoshaba Omo Rufus, PLEF was founded with a singular vision: to invest in Nigeria’s greatest asset—its youth. It started with Mr Omo-Rufus single-handedly funding academic awards for students in the Royal Ambassadors – a worldwide Baptist missionary paramilitary organisation for boys between the ages of 10 and 24 whose vision is to touch the lives of boys and impact the eternity of men – after passing through the ranks himself. </p>
                 <p className="text-[16px]">Since the first award distribution in the Royal Ambassadors, the number of beneficiaries and reward categories have continued to grow to accommodate more boys and their wards, who have demonstrated their commitment to excellence in academics, vocation, teaching & parenting.</p>
-                <p className="text-[16px]">All that to say, Buffer is a product built to help our customers get off the ground and grow via organic marketing, and the Buffer team is an optimistic and gratitude-filled group of remote workers scattered around the world and dedicated to creating a product our customers will use and love.</p>
+                <p className="text-[16px]">The foundation was born out of a deep passion for supporting academic and vocational excellence and proving its worth. We believe we can equip the next generation with the tools and resources for youngsters to focus on excellence again. Our focus is on building capacity from the ground up—creating a culture of excellence and inspiring the next generation to dream big.</p>
             </div>
         </div>
     );
