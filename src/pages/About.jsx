@@ -1,5 +1,6 @@
 import Intro from "../components/About/intro";
 import Metrics from "../components/About/metrics";
+import Mission from "../components/About/mission";
 import Story from "../components/About/ourstory";
 
 const About = () => {
@@ -8,6 +9,8 @@ const About = () => {
             <Intro />
 
             <Story />
+
+            <Mission />
 
             <Metrics />
         </div>
