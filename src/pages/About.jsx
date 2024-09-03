@@ -3,6 +3,7 @@ import Metrics from "../components/About/metrics";
 import Mission from "../components/About/mission";
 import Story from "../components/About/ourstory";
 import { useEffect } from "react";
+import Values from "../components/About/values";
 const About = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -16,6 +17,8 @@ const About = () => {
             <Mission />
 
             <Metrics />
+
+            <Values />
         </div>
     );
 }

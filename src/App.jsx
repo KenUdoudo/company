@@ -198,7 +198,7 @@ function App() {
           </div>
         </div>
         <p className="text-[13px] text-center text-[#8f8d8d] py-[30px]">
-          © 2023 ForHelp. All rights reserved.
+          © 2024 PLEFoundation. All rights reserved.
         </p>
       </div>
     </Router>
