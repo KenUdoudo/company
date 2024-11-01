@@ -1,4 +1,4 @@
-import intro from './website.svg'
+import intro from './intro.png';
 
 const Intro = () => {
     return (
@@ -8,7 +8,7 @@ const Intro = () => {
                 <p className="text-[20px] text-center md:text-left">What&apos;s PLEF? It&apos;s short for Piuonoshaba Life Empowerment Foundation. </p>
                 <p className="text-[20px] text-center md:text-left">The foundation is committed to empowering Nigerian youths through life to make them truly become the leaders of tomorrow! </p>
             </div>
-            <img src={ intro } className='w-full md:w-[40%] lg:w-[50%]'/>
+            <img src={ intro } className='w-full md:w-[40%] lg:w-[50%] rounded-lg'/>
         </div>
     );
 }
