@@ -1,15 +1,15 @@
-import application from './application.svg';
-import apps from './apps.svg';
-import heart from './heart.svg';
-import likepost from './likepost.svg';
+import group1 from './group1.png';
+import group2 from './group2.png';
+import rufos from './rufos.png';
+import emma from './emma.png';
 const Story = () => {
     return (
         <div className="flex flex-col-reverse lg:flex-row justify-between items-start gap-[20px] my-[50px]">
             <div className="w-full lg:w-[50%] relative">
-                <img src={ application } className='w-[25%] bg-[#FFD4A1] ml-[30px] p-[20px] rounded-md'/>
-                <img src={ apps } className='w-[40%] bg-[#FFD4A1] mt-[30px] p-[20px] rounded-md'/>
-                <img src={ likepost } className='w-[50%] bg-[#FFD4A1] absolute right-[5%] top-[25%] p-[20px] rounded-md'/>
-                <img src={ heart } className='w-[20%] bg-[#FFD4A1] absolute right-[30%] bottom-[-30%] p-[20px] rounded-md'/>
+                <img src={ group1 } className='w-[35%] bg-[#FFD4A1] ml-[30px] rounded-md'/>
+                <img src={ group2 } className='w-[45%] bg-[#FFD4A1] mt-[30px] rounded-md'/>
+                <img src={ emma } className='w-[50%] bg-[#FFD4A1] absolute right-[0%] top-[25%] rounded-md'/>
+                <img src={ rufos } className='w-[40%] bg-[#FFD4A1] absolute right-[10%] bottom-[-40%] rounded-md'/>
             </div>
             <div className='w-full lg:w-[50%] flex flex-col items-start gap-[20px]'>
                 <p className="text-[40px] font-[700]">Our Story</p>
