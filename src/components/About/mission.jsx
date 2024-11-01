@@ -1,6 +1,6 @@
 const Mission = () => {
     return (
-        <div className="mt-[100px] md:mt-[180px] lg:mt-[130px]">
+        <div className="mt-[130px] md:mt-[200px] lg:mt-[130px]">
             <p className="text-[40px] font-[700]">Our Mission & Vision</p>
 
             <div className="flex flex-col md:flex-row justify-center mt-[20px] gap-[20px]">
