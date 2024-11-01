@@ -7,7 +7,7 @@ import { HiSparkles } from "react-icons/hi";
 const Values = () => {
     return (
         <div className="mt-[60px]">
-            <p className="text-[40px] font-[700] text-center">Our values</p>
+            <p className="text-[40px] font-[700] text-center"><span className="italic font-[400] ">Our</span> Values</p>
 
             <p className="text-center mt-[20px]">At PLEF, our values guide everything we do:</p>
 
