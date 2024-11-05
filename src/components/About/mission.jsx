@@ -1,7 +1,7 @@
 const Mission = () => {
     return (
         <div className="mt-[130px] md:mt-[200px] lg:mt-[130px]">
-            <p className="text-[40px] font-[700]"><span className="italic font-[400] ">Our</span> Mission & Vision</p>
+            <p className="text-[40px] font-[700] md:text-center"><span className="italic font-[400] ">Our</span> Mission & Vision</p>
 
             <div className="flex flex-col md:flex-row justify-center mt-[20px] gap-[20px]">
                 <div className="flex flex-col items-start w-full md:w-[50%] p-[20px] gap-[20px] rounded-[25px] bg-[#e9e9e9]">
