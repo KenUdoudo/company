@@ -1,4 +1,4 @@
-import intro from './intro.png';
+import intro from './intro.svg';
 
 const Intro = () => {
     return (
