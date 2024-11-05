@@ -119,17 +119,11 @@ const Section6 = () => {
             )}
             {tab === 0 && (
               <div className="flex flex-col gap-[20px]">
-                <p className="text-[20px] font-semibold">
-                  "Thank you so much for your support!"
-                </p>
-                <p className="text-[13px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                  cupiditate consequuntur odit nobis dolores ea dolor similique
-                  adipisci dignissimos? Nihil blanditiis repellat natus aliquam
-                  labore quia voluptatem sunt laborum possimus?
-                </p>
-                <p className="text-[13px]">- John Smith</p>
-              </div>
+              <p className="text-[16px]">
+              It has been a pleasure to be a two-time beneficiary of the Piunoshaba Life Empowerment Foundation. The academic support aid I received not only empowered me but also gave me the confidence to pursue my academic goals with renewed determination. I am deeply grateful to the foundation for their unwavering support and for making a significant impact on my educational journey.
+              </p>
+              <p className="text-[13px]">– Okagbare Emmanuel</p>
+            </div>
             )}
             {tab === 1 && (
               <div className="flex flex-col gap-[20px]">
@@ -141,15 +135,11 @@ const Section6 = () => {
             )}
             {tab === 2 && (
               <div className="flex flex-col gap-[20px]">
-                <p className="text-[20px] font-semibold">"Dey play"</p>
-                <p className="text-[13px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                  cupiditate consequuntur odit nobis dolores ea dolor similique
-                  adipisci dignissimos? Nihil blanditiis repellat natus aliquam
-                  labore quia voluptatem sunt laborum possimus?
-                </p>
-                <p className="text-[13px]">- Ikike John</p>
-              </div>
+              <p className="text-[16px]">
+              It has been a pleasure to be a two-time beneficiary of the Piunoshaba Life Empowerment Foundation. The academic support aid I received not only empowered me but also gave me the confidence to pursue my academic goals with renewed determination. I am deeply grateful to the foundation for their unwavering support and for making a significant impact on my educational journey.
+              </p>
+              <p className="text-[13px]">– Okagbare Emmanuel</p>
+            </div>
             )}
             {tab === 3 && (
               <div className="flex flex-col gap-[20px]">
