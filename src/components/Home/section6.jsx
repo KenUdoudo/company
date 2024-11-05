@@ -95,39 +95,27 @@ const Section6 = () => {
             <div className="shrink-0 hidden md:block"><FaQuoteRight className="h-[80px] w-[80px]"/></div>
             {tab === -3 && (
               <div className="flex flex-col gap-[20px]">
-                <p className="text-[20px] font-semibold">
-                  "Thank you so much for your support!"
+                <p className="text-[16px]">
+                As a two-time beneficiary of the foundation programs, I’ve felt and seen the positive impact that PLEF can bring about with just a little recognition & reward to people who’ve been starved of it.
                 </p>
-                <p className="text-[13px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                  cupiditate consequuntur odit nobis dolores ea dolor similique
-                  adipisci dignissimos? Nihil blanditiis repellat natus aliquam
-                  labore quia voluptatem sunt laborum possimus?
-                </p>
-                <p className="text-[13px]">- John Smith</p>
+                <p className="text-[13px]">– Egbon Cedric</p>
               </div>
             )}
             {tab === -2 && (
               <div className="flex flex-col gap-[20px]">
-                <p className="text-[20px] font-semibold">"Dey play"</p>
-                <p className="text-[13px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                  cupiditate consequuntur odit nobis dolores ea dolor similique
-                  adipisci dignissimos? Nihil blanditiis repellat natus aliquam
-                  labore quia voluptatem sunt laborum possimus?
+                <p className="text-[16px]">
+                It has been a pleasure to be a two-time beneficiary of the Piunoshaba Life Empowerment Foundation. The academic support aid I received not only empowered me but also gave me the confidence to pursue my academic goals with renewed determination. I am deeply grateful to the foundation for their unwavering support and for making a significant impact on my educational journey.
                 </p>
-                <p className="text-[13px]">- Ikike John</p>
+                <p className="text-[13px]">– Okagbare Emmanuel</p>
               </div>
             )}
             {tab === -1 && (
               <div className="flex flex-col gap-[20px]">
-                <p className="text-[20px] font-semibold">"Thank you so much"</p>
-                <p className="text-[13px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                  cupiditate consequuntur odit nobis dolores ea dolor{" "}
-                </p>
-                <p className="text-[13px]">- Jane Smith</p>
-              </div>
+              <p className="text-[16px]">
+              As a two-time beneficiary of the foundation programs, I’ve felt and seen the positive impact that PLEF can bring about with just a little recognition & reward to people who’ve been starved of it.
+              </p>
+              <p className="text-[13px]">– Egbon Cedric</p>
+            </div>
             )}
             {tab === 0 && (
               <div className="flex flex-col gap-[20px]">
@@ -145,13 +133,11 @@ const Section6 = () => {
             )}
             {tab === 1 && (
               <div className="flex flex-col gap-[20px]">
-                <p className="text-[20px] font-semibold">"Thank you so much"</p>
-                <p className="text-[13px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                  cupiditate consequuntur odit nobis dolores ea dolor{" "}
-                </p>
-                <p className="text-[13px]">- Jane Smith</p>
-              </div>
+              <p className="text-[16px]">
+              As a two-time beneficiary of the foundation programs, I’ve felt and seen the positive impact that PLEF can bring about with just a little recognition & reward to people who’ve been starved of it.
+              </p>
+              <p className="text-[13px]">– Egbon Cedric</p>
+            </div>
             )}
             {tab === 2 && (
               <div className="flex flex-col gap-[20px]">
@@ -167,17 +153,11 @@ const Section6 = () => {
             )}
             {tab === 3 && (
               <div className="flex flex-col gap-[20px]">
-                <p className="text-[20px] font-semibold">
-                  "Thank you so much for your support!"
-                </p>
-                <p className="text-[13px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                  cupiditate consequuntur odit nobis dolores ea dolor similique
-                  adipisci dignissimos? Nihil blanditiis repellat natus aliquam
-                  labore quia voluptatem sunt laborum possimus?
-                </p>
-                <p className="text-[13px]">- John Smith</p>
-              </div>
+              <p className="text-[16px]">
+              As a two-time beneficiary of the foundation programs, I’ve felt and seen the positive impact that PLEF can bring about with just a little recognition & reward to people who’ve been starved of it.
+              </p>
+              <p className="text-[13px]">– Egbon Cedric</p>
+            </div>
             )}
           </div>
         </div>
