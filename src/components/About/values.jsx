@@ -14,7 +14,7 @@ const Values = () => {
             <div className="flex flex-col flex-wrap md:flex-row justify-between mt-[70px] gap-y-[20px] md:gap-y-[50px]">
                 <div className="flex flex-col w-full md:w-[45%]">
                     <div className="flex items-center gap-[30px]">
-                        <div className="p-[25px] bg-[#d0e3ff] rounded-md">
+                        <div className="p-[15px] bg-[#d0e3ff] rounded-md">
                         <FaThumbsUp className="w-[20px] h-[20px]"/></div>
                         <p className="text-[25px] font-[700]">Excellence</p>
                     </div>
@@ -22,7 +22,7 @@ const Values = () => {
                 </div>
                 <div className="flex flex-col w-full md:w-[45%]">
                     <div className="flex items-center gap-[30px]">
-                        <div className="p-[25px] bg-[#ffd7e3] rounded-md">
+                        <div className="p-[15px] bg-[#ffd7e3] rounded-md">
                         <GiStumpRegrowth className="w-[20px] h-[20px]"/></div>
                         <p className="text-[25px] font-[700]">Empowerment</p>
                     </div>
@@ -30,7 +30,7 @@ const Values = () => {
                 </div>
                 <div className="flex flex-col w-full md:w-[45%]">
                     <div className="flex items-center gap-[30px]">
-                        <div className="p-[25px] bg-[#ead8fc] rounded-md">
+                        <div className="p-[15px] bg-[#ead8fc] rounded-md">
                         <IoMdBuild  className="w-[20px] h-[20px]"/></div>
                         <p className="text-[25px] font-[700]">Innovation</p>
                     </div>
@@ -38,7 +38,7 @@ const Values = () => {
                 </div>
                 <div className="flex flex-col w-full md:w-[45%]">
                     <div className="flex items-center gap-[30px]">
-                        <div className="p-[25px] bg-[#e7f8c7] rounded-md">
+                        <div className="p-[15px] bg-[#e7f8c7] rounded-md">
                         <TbHeartHandshake  className="w-[20px] h-[20px]"/></div>
                         <p className="text-[25px] font-[700]">Partnership</p>
                     </div>
@@ -46,7 +46,7 @@ const Values = () => {
                 </div>
                 <div className="flex flex-col w-full md:w-[45%]">
                     <div className="flex items-center gap-[30px]">
-                        <div className="p-[25px] bg-[#d0e3ff] rounded-md">
+                        <div className="p-[15px] bg-[#d0e3ff] rounded-md">
                         <HiSparkles  className="w-[20px] h-[20px]"/></div>
                         <p className="text-[25px] font-[700]">Integrity</p>
                     </div>

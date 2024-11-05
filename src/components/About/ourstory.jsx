@@ -1,7 +1,7 @@
-import group1 from './group1.svg';
-import group2 from './group2.svg';
-import rufos from './rufos.svg';
-import emma from './emma.svg';
+import group1 from './group1.png';
+import group2 from './group2.png';
+import rufos from './rufos.png';
+import emma from './emma.png';
 const Story = () => {
     return (
         <div className="flex flex-col-reverse lg:flex-row justify-between items-start gap-[20px] my-[50px]">
