@@ -1,15 +1,15 @@
-import group1 from './group1.png';
-import group2 from './group2.png';
-import rufos from './rufos.png';
-import emma from './emma.png';
+import group1 from './Four.png';
+import group2 from './Three.png';
+import rufos from './Two.png';
+import emma from './One.png';
 const Story = () => {
     return (
         <div className="flex flex-col-reverse lg:flex-row justify-between items-start gap-[20px] my-[50px]">
             <div className="w-full lg:w-[50%] relative">
-                <img src={ group1 } className='w-[35%] bg-[#FFD4A1] ml-[30px] rounded-md'/>
-                <img src={ group2 } className='w-[45%] bg-[#FFD4A1] mt-[30px] rounded-md'/>
-                <img src={ emma } className='w-[50%] bg-[#FFD4A1] absolute right-[0%] top-[25%] rounded-md'/>
-                <img src={ rufos } className='w-[40%] bg-[#FFD4A1] absolute right-[10%] bottom-[-40%] rounded-md'/>
+                <img src={ group1 } className='w-[35%] ml-[30px] rounded-md'/>
+                <img src={ group2 } className='w-[45%] mt-[30px] rounded-md'/>
+                <img src={ emma } className='w-[50%] absolute right-[0%] top-[25%] rounded-md'/>
+                <img src={ rufos } className='w-[40%] absolute right-[10%] bottom-[-40%] rounded-md'/>
             </div>
             <div className='w-full lg:w-[50%] flex flex-col items-start gap-[20px]'>
                 <p className="text-[40px] font-[700]"><span className="italic font-[400] ">Our</span> Story</p>
