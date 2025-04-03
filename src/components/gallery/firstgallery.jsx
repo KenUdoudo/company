@@ -3,10 +3,15 @@ import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 
 const images = [
-    "/vite.svg",
-    "/images/image2.jpg",
-    "/images/image3.jpg",
-    "/images/image4.jpg",
+    "/christmasphotos/Image1.jpg",
+    "/christmasphotos/Image2.jpg",
+    "/christmasphotos/Image3.jpg",
+    "/christmasphotos/Image4.jpg",
+    "/christmasphotos/Image5.jpg",
+    "/christmasphotos/Image6.jpg",
+    "/christmasphotos/Image7.jpg",
+    "/christmasphotos/Image8.jpg",
+    "/christmasphotos/Image9.jpg",
 ];
 
 const Firstgallery = () => {
