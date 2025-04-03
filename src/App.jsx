@@ -28,7 +28,7 @@ function App() {
     <Router>
       <div className="px-[20px] lg:px-[50px] font-monts max-w-[1280px] mx-auto">
         <div className="flex flex-row justify-between items-center bg-white md:bg-[#fffeff] rounded-full px-[15px] py-[15px] mt-[10px] md:mt-[30px] w-full">
-          <div className="flex items-center gap-[10px]">
+          <div className="flex items-center gap-[10px] border-0">
             <Link to="/" className=" w-[100px]">
               <img src={logo} />
             </Link>
@@ -91,14 +91,15 @@ function App() {
             </div></a>
             </div>
           </div>
-
-          
-          <a href="mailto:officialplefoundation@gmail.com" className="hidden md:block"><div className="flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] hover:bg-[#c28438] cursor-pointer">
-            <p className="text-[13px] font-[500]">Contact Us</p>
-            <div className="h-[25px] w-[25px] rounded-full border-[1px] bg-[#FFD4A1] flex justify-center items-center">
-              <HiMiniEnvelope />
+          <div className=" flex-row justify-center items-center gap-[20px] hidden md:flex">
+            <Link to="/gallery"><div className="flex flex-row justify-center items-center px-[13px] py-[10px]"><p className="text-[16px] text-center">Gallery</p></div></Link>
+            <a href="mailto:officialplefoundation@gmail.com" ><div className="flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] hover:bg-[#c28438] cursor-pointer">
+              <p className="text-[13px] font-[500]">Contact Us</p>
+              <div className="h-[25px] w-[25px] rounded-full border-[1px] bg-[#FFD4A1] flex justify-center items-center">
+                <HiMiniEnvelope />
+              </div>
+            </div></a>
             </div>
-          </div></a>
         </div>
 
         <div className="content">
