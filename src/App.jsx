@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Home from "./pages/home";
-import GetInvolved from "./pages/getinvolved";
+import GalleryOptions from "./pages/GalleryOptions";
 import Donate from "./pages/donate";
 import ImpactAreas from "./pages/impact";
 import SuccessStories from "./pages/success";
@@ -77,7 +77,7 @@ function App() {
               </Link>
             </div>
             <div className="flex flex-col justify-center  mt-[80px]">
-              <p className="text-[13px] text-center">Gallery</p>
+              <Link to="/GalleryOptions"><div className="flex flex-row justify-center items-center px-[13px] py-[10px]"><p className="text-[13px] text-center">Gallery</p></div></Link>
             <a href="mailto:officialplefoundation@gmail.com"><div className="flex flex-row justify-center items-center gap-[4px] px-[13px] py-[10px] bg-[#F7941D] hover:bg-[#c28438] cursor-pointer">
               <p className="text-[13px] font-[500]">Contact Us</p>
               <div className="h-[25px] w-[25px] rounded-full border-[1px] bg-[#FFD4A1] flex justify-center items-center">
@@ -99,7 +99,7 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/gallery" element={<GetInvolved />} />
+            <Route path="/gallery" element={<GalleryOptions />} />
             <Route path="/contribute" element={<Donate />} />
             <Route path="/stories" element={<ImpactAreas />} />
             <Route path="/blog" element={<SuccessStories />} />
