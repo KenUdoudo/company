@@ -5,6 +5,7 @@ import Donate from "./pages/donate";
 import ImpactAreas from "./pages/impact";
 import SuccessStories from "./pages/success";
 import About from "./pages/About";
+import Firstgallery from "./components/gallery/firstgallery";
 import { HiMiniEnvelope } from "react-icons/hi2";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaTwitter } from "react-icons/fa";
@@ -13,6 +14,10 @@ import logo from "./assets/newlogo.svg";
 import { HiOutlineMenu } from "react-icons/hi";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
+
+if (typeof global === "undefined") {
+  window.global = window;
+}
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -104,6 +109,7 @@ function App() {
             <Route path="/stories" element={<ImpactAreas />} />
             <Route path="/blog" element={<SuccessStories />} />
             <Route path="/aboutus" element={<About />} />
+            <Route path="/christmasprogramphotos" element={<Firstgallery />} />
           </Routes>
         </div>
 
