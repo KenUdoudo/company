@@ -24,9 +24,9 @@ function App() {
       <div className="px-[20px] lg:px-[50px] font-monts max-w-[1280px] mx-auto">
         <div className="flex flex-row justify-between items-center bg-white md:bg-[#fffeff] rounded-full px-[15px] py-[15px] mt-[10px] md:mt-[30px] w-full">
           <div className="flex items-center gap-[10px]">
-            <div className=" w-[100px]">
+            <Link to="/" className=" w-[100px]">
               <img src={logo} />
-            </div>
+            </Link>
 
             <div className="hidden flex-row justify-center items-center gap-x-[4px]">
             <Link
