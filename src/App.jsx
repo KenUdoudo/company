@@ -57,7 +57,7 @@ function App() {
           </div>
           <div className=" flex-row justify-center items-center gap-[20px] hidden md:flex">
             <Link to="/gallery"><div className="flex flex-row justify-center items-center px-[13px] py-[10px]"><p className="text-[16px] text-center">Gallery</p></div></Link>
-            <Link to="/aboutus"><div className="flex flex-row justify-center items-center px-[13px] py-[10px]"><p className="text-[13px] text-center">About Us</p></div></Link>
+            <Link to="/aboutus"><div className="flex flex-row justify-center items-center px-[13px] py-[10px]"><p className="text-[16px] text-center">About Us</p></div></Link>
             <a href="mailto:officialplefoundation@gmail.com" ><div className="flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] hover:bg-[#c28438] cursor-pointer">
               <p className="text-[13px] font-[500]">Contact Us</p>
               <div className="h-[25px] w-[25px] rounded-full border-[1px] bg-[#FFD4A1] flex justify-center items-center">
