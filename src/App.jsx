@@ -6,6 +6,7 @@ import ImpactAreas from "./pages/impact";
 import SuccessStories from "./pages/success";
 import About from "./pages/About";
 import Firstgallery from "./components/gallery/firstgallery";
+import Secondgallery from "./components/gallery/secondgallery";
 import { HiMiniEnvelope } from "react-icons/hi2";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaTwitter } from "react-icons/fa";
@@ -76,6 +77,7 @@ function App() {
             <Route path="/blog" element={<SuccessStories />} />
             <Route path="/aboutus" element={<About />} />
             <Route path="/christmasprogramphotos" element={<Firstgallery />} />
+            <Route path="/plefoundationawardprogram" element={<Firstgallery />} />
           </Routes>
         </div>
 
