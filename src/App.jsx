@@ -43,46 +43,10 @@ function App() {
               isOpen ? "-translate-x-0" : "translate-x-full"
             } transition-transform duration-500 ease-in-out overflow-hidden`}
           >
-            <div className="hidden flex-col items-start gap-y-[20px] px-[20px] py-[20px]">
-              <Link
-                to="/"
-                className=" hover:bg-[#E9E9E9] rounded-full px-[15px] py-[3px] text-[16px] font-[500]"
-              >
-                Home
-              </Link>
-              <Link
-                to="/gallery"
-                className=" hover:bg-[#E9E9E9] rounded-full px-[15px] py-[3px] text-[16px] font-[500]"
-              >
-                Gallery
-              </Link>
-              <Link
-                to="/contribute"
-                className=" hover:bg-[#E9E9E9] rounded-full px-[15px] py-[3px] text-[16px] font-[500]"
-              >
-                Contribute
-              </Link>
-              <Link
-                to="/stories"
-                className=" hover:bg-[#E9E9E9] rounded-full px-[15px] py-[3px] text-[16px] font-[500]"
-              >
-                Stories
-              </Link>
-              <Link
-                to="/blog"
-                className=" hover:bg-[#E9E9E9] rounded-full px-[15px] py-[3px] text-[16px] font-[500]"
-              >
-                Blog
-              </Link>
-              <Link
-                to="/aboutus"
-                className=" hover:bg-[#E9E9E9] rounded-full px-[15px] py-[3px] text-[16px] font-[500]"
-              >
-                About Us
-              </Link>
-            </div>
+            
             <div className="flex flex-col justify-center  mt-[80px]">
               <Link to="/gallery"><div className="flex flex-row justify-center items-center px-[13px] py-[10px]"><p className="text-[13px] text-center">Gallery</p></div></Link>
+              <Link to="/aboutus"><div className="flex flex-row justify-center items-center px-[13px] py-[10px]"><p className="text-[13px] text-center">About Us</p></div></Link>
             <a href="mailto:officialplefoundation@gmail.com"><div className="flex flex-row justify-center items-center gap-[4px] px-[13px] py-[10px] bg-[#F7941D] hover:bg-[#c28438] cursor-pointer">
               <p className="text-[13px] font-[500]">Contact Us</p>
               <div className="h-[25px] w-[25px] rounded-full border-[1px] bg-[#FFD4A1] flex justify-center items-center">
@@ -93,6 +57,7 @@ function App() {
           </div>
           <div className=" flex-row justify-center items-center gap-[20px] hidden md:flex">
             <Link to="/gallery"><div className="flex flex-row justify-center items-center px-[13px] py-[10px]"><p className="text-[16px] text-center">Gallery</p></div></Link>
+            <Link to="/aboutus"><div className="flex flex-row justify-center items-center px-[13px] py-[10px]"><p className="text-[13px] text-center">About Us</p></div></Link>
             <a href="mailto:officialplefoundation@gmail.com" ><div className="flex flex-row justify-center items-center gap-[4px] rounded-full px-[13px] py-[10px] bg-[#F7941D] hover:bg-[#c28438] cursor-pointer">
               <p className="text-[13px] font-[500]">Contact Us</p>
               <div className="h-[25px] w-[25px] rounded-full border-[1px] bg-[#FFD4A1] flex justify-center items-center">
