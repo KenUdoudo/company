@@ -77,7 +77,7 @@ function App() {
             <Route path="/blog" element={<SuccessStories />} />
             <Route path="/aboutus" element={<About />} />
             <Route path="/christmasprogramphotos" element={<Firstgallery />} />
-            <Route path="/plefoundationawardprogram" element={<Firstgallery />} />
+            <Route path="/plefoundationawardprogram" element={<Secondgallery />} />
           </Routes>
         </div>
 
