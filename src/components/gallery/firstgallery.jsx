@@ -4,7 +4,7 @@ import "react-image-lightbox/style.css";
 
 const images = [
     "/christmasphotos/image (1).jpg",
-    "/christmasphotos/image (2).jpg",
+    "/christmasphotos/image_(2).jpg",
     "/christmasphotos/image (3).jpg",
     "/christmasphotos/image (4).jpg",
     "/christmasphotos/image (5).jpg",
