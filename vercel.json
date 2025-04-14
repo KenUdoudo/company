@@ -8,11 +8,12 @@
     "builds": [
       {
         "src": "package.json",
-        "use": "@vercel/next",
+        "use": "@vercel/static-build",
         "config": {
-          "buildCommand": "git lfs install && git lfs pull && next build"
+          "buildCommand": "git lfs install && git lfs pull && npm run build"
         }
       }
     ]
   }
+  
   
