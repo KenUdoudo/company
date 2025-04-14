@@ -62,15 +62,16 @@ const Firstgallery = () => {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {images.map((src, index) => (
                     <img
-                        key={index}
-                        src={src}
-                        alt={`Image ${index + 1}`}
-                        className="cursor-pointer rounded-lg shadow-md hover:shadow-xl transition duration-200"
-                        onClick={() => {
-                            setPhotoIndex(index);
-                            setIsOpen(true);
-                        }}
-                    />
+                    key={index}
+                    src={src}
+                    alt={`Image ${index + 1}`}
+                    loading="lazy"
+                    className="cursor-pointer rounded-lg shadow-md hover:shadow-xl transition duration-200"
+                    onClick={() => {
+                      setPhotoIndex(index);
+                      setIsOpen(true);
+                    }}
+                  />
                 ))}
             </div>
 
@@ -103,3 +104,4 @@ const Firstgallery = () => {
 
  
 export default Firstgallery;
+
