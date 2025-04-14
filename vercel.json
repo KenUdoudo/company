@@ -4,13 +4,15 @@
         "source": "/(.*)",
         "destination": "/"
       }
-    ],"builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/node",
-      "config": {
-        "buildCommand": "git lfs install && git lfs pull && next build"
+    ],
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/next",
+        "config": {
+          "buildCommand": "git lfs install && git lfs pull && next build"
+        }
       }
-    }
-  ]
+    ]
   }
+  
