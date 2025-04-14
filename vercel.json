@@ -4,7 +4,13 @@
         "source": "/(.*)",
         "destination": "/"
       }
-    ],
-    "buildCommand": "git lfs install && git lfs pull && next build",
-    "ignoreCommand": "git diff --quiet HEAD^ HEAD ."
+    ],"builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node",
+      "config": {
+        "buildCommand": "git lfs install && git lfs pull && next build"
+      }
+    }
+  ]
   }
