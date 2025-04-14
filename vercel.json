@@ -1,5 +1,10 @@
 {
     "rewrites": [
-        {"source": "/(.*)", "destination": "/"}
-    ]
-}
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ],
+    "buildCommand": "git lfs install && git lfs pull && next build",
+    "ignoreCommand": "git diff --quiet HEAD^ HEAD ."
+  }
