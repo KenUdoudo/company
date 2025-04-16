@@ -4,15 +4,6 @@
         "source": "/(.*)",
         "destination": "/"
       }
-    ],
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/static-build",
-        "config": {
-          "buildCommand": "git lfs install && git lfs pull && npm run build"
-        }
-      }
     ]
   }
   
