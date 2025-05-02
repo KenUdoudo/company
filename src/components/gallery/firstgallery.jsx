@@ -1,9 +1,8 @@
 import { useState } from "react";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
+import Modal from "react-modal";
 
-const images = [
-    "/christmasphotos/image (1).jpg",
+const mediaItems = [
+  "/christmasphotos/image (1).jpg",
     "/christmasphotos/image_(2).jpg",
     "/christmasphotos/image (3).jpg",
     "/christmasphotos/image (4).jpg",
@@ -42,65 +41,135 @@ const images = [
     "/christmasphotos/image (37).jpg",
     "/christmasphotos/image (38).jpg",
     "/christmasphotos/image (39).jpg",
+    "/christmasphotos/video (1).mp4",
+    "/christmasphotos/video (2).mp4",
+    "/christmasphotos/video (3).mp4",
+    "/christmasphotos/video (4).mp4",
+    "/christmasphotos/video (5).mp4",
+    "/christmasphotos/video (6).mp4",
+    "/christmasphotos/video (7).mp4",
+    "/christmasphotos/video (8).mp4",
+    "/christmasphotos/video (9).mp4",
+    "/christmasphotos/video (10).mp4",
+    "/christmasphotos/video (11).mp4",
+    "/christmasphotos/video (13).mp4",
+    "/christmasphotos/video (14).mp4",
+    "/christmasphotos/video (15).mp4",
+    "/christmasphotos/video (16).mp4",
+    "/christmasphotos/video (17).mp4",
+    "/christmasphotos/video (18).mp4",
 ];
 
+const isVideo = (url) => url.match(/\.(mp4|webm|ogg)$/i);
+
+Modal.setAppElement("#root"); // adjust if needed
+
 const Firstgallery = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    const [photoIndex, setPhotoIndex] = useState(0);
+  const [isOpen, setIsOpen] = useState(false);
+  const [mediaIndex, setMediaIndex] = useState(0);
 
-    const handleDownload = (image) => {
-        const link = document.createElement("a");
-        link.href = image;
-        link.download = image.split("/").pop();
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
+  const handleDownload = (media) => {
+    const link = document.createElement("a");
+    link.href = media;
+    link.download = media.split("/").pop();
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
-    return (
-        <div className="p-5">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                {images.map((src, index) => (
-                    <img
-                    key={index}
-                    src={src}
-                    alt={`Image ${index + 1}`}
-                    loading="lazy"
-                    className="cursor-pointer rounded-lg shadow-md hover:shadow-xl transition duration-200"
-                    onClick={() => {
-                      setPhotoIndex(index);
-                      setIsOpen(true);
-                    }}
-                  />
-                ))}
-            </div>
+  const nextMedia = () =>
+    setMediaIndex((mediaIndex + 1) % mediaItems.length);
+  const prevMedia = () =>
+    setMediaIndex((mediaIndex + mediaItems.length - 1) % mediaItems.length);
 
-            {isOpen && (
-                <Lightbox
-                    mainSrc={images[photoIndex]}
-                    nextSrc={images[(photoIndex + 1) % images.length]}
-                    prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-                    onCloseRequest={() => setIsOpen(false)}
-                    onMovePrevRequest={() =>
-                        setPhotoIndex((photoIndex + images.length - 1) % images.length)
-                    }
-                    onMoveNextRequest={() =>
-                        setPhotoIndex((photoIndex + 1) % images.length)
-                    }
-                    toolbarButtons={[
-                        <button
-                            key="download"
-                            onClick={() => handleDownload(images[photoIndex])}
-                            className="bg-blue-500 text-white px-2 py-2 rounded-md mt-[30px]"
-                        >
-                            Download
-                        </button>,
-                    ]}
-                />
+  return (
+    <div className="p-5">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        {mediaItems.map((src, index) => (
+          <div
+            key={index}
+            className="cursor-pointer"
+            onClick={() => {
+              setMediaIndex(index);
+              setIsOpen(true);
+            }}
+          >
+            {isVideo(src) ? (
+              <video
+                src={src}
+                className="w-full rounded-lg shadow-md"
+                muted
+                playsInline
+                preload="metadata"
+              />
+            ) : (
+              <img
+                src={src}
+                alt={`Media ${index + 1}`}
+                loading="lazy"
+                className="w-full rounded-lg shadow-md hover:shadow-xl transition duration-200"
+              />
             )}
-        </div>
-    );
+          </div>
+        ))}
+      </div>
+
+      <Modal
+  isOpen={isOpen}
+  onRequestClose={() => setIsOpen(false)}
+  shouldCloseOnOverlayClick={true}
+  contentLabel="Media Viewer"
+  className="fixed inset-0 flex items-center justify-center outline-none"
+  overlayClassName="fixed inset-0 bg-black bg-opacity-70 z-40"
+>
+  <div
+    className="relative max-w-[90%] max-h-[90%] bg-black p-4 rounded-lg z-50"
+    onClick={(e) => e.stopPropagation()} // prevent inside click from closing modal
+  >
+    {/* Close Button */}
+    <button
+      onClick={() => setIsOpen(false)}
+      className="absolute top-2 right-2 text-white bg-red-600 hover:bg-red-700 rounded-full p-2 text-xl z-50"
+    >
+      &times;
+    </button>
+
+    {/* Media */}
+    {isVideo(mediaItems[mediaIndex]) ? (
+      <video
+        src={mediaItems[mediaIndex]}
+        controls
+        autoPlay
+        className="max-w-full max-h-[80vh] rounded-lg"
+      />
+    ) : (
+      <img
+        src={mediaItems[mediaIndex]}
+        alt=""
+        className="max-w-full max-h-[80vh] rounded-lg"
+      />
+    )}
+
+    {/* Navigation */}
+    <div className="flex justify-between mt-4 text-white">
+      <button onClick={prevMedia} className="px-4 py-2 bg-gray-700 rounded">
+        Previous
+      </button>
+      <button
+        onClick={() => handleDownload(mediaItems[mediaIndex])}
+        className="px-4 py-2 bg-blue-500 rounded"
+      >
+        Download
+      </button>
+      <button onClick={nextMedia} className="px-4 py-2 bg-gray-700 rounded">
+        Next
+      </button>
+    </div>
+  </div>
+</Modal>
+
+    </div>
+  );
 };
 
- 
 export default Firstgallery;
