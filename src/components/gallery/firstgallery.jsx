@@ -123,13 +123,13 @@ const Firstgallery = () => {
   overlayClassName="fixed inset-0 bg-black bg-opacity-70 z-40"
 >
   <div
-    className="relative max-w-[90%] max-h-[90%] bg-black p-4 rounded-lg z-50"
+    className="relative max-w-[90%] max-h-[90%] bg-black p-7 z-50"
     onClick={(e) => e.stopPropagation()} // prevent inside click from closing modal
   >
     {/* Close Button */}
     <button
       onClick={() => setIsOpen(false)}
-      className="absolute top-2 right-2 text-white bg-red-600 hover:bg-red-700 rounded-full p-2 text-xl z-50"
+      className="absolute flex justify-center items-center top-2 right-2 text-white bg-red-600 hover:bg-red-700 rounded-full px-[10px] pb-[5px] text-xl z-50"
     >
       &times;
     </button>
