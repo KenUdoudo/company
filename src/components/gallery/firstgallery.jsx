@@ -89,7 +89,7 @@ const Firstgallery = () => {
     <div className="p-5 space-y-10">
       {/* Image Section */}
       <div>
-        <h2 className="text-2xl font-bold mb-4 text-center">Christmas Photos</h2>
+        <h2 className="text-2xl font-bold mb-4 text-center">Photo Memories</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {images.map((src, index) => (
             <div
@@ -113,7 +113,7 @@ const Firstgallery = () => {
 
       {/* Video Section */}
       <div>
-        <h2 className="text-2xl font-bold mb-4 text-center">Christmas Videos</h2>
+        <h2 className="text-2xl font-bold mb-4 text-center">Video Memories</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {videos.map((src, index) => {
             const fullIndex = images.length + index; // offset into allMedia
