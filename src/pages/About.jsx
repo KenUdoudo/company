@@ -23,7 +23,7 @@ const About = () => {
             <Values />
 
             <div className="flex w-full justify-center items-center mt-[30px] px-[20px]">
-                 <img src={ Poster } />
+                 <img src={ Poster } className="w-full" />
             </div>
 
             <Link to="/gallery" className="flex w-full justify-center items-center mt-[20px] md:mt-[40px]">
