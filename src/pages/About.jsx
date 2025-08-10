@@ -2,7 +2,7 @@ import Intro from "../components/About/intro";
 import Metrics from "../components/About/metrics";
 import Mission from "../components/About/mission";
 import Story from "../components/About/ourstory";
-import Poster from "./IMG_4408.png"
+import Poster from "../components/About/IMG_4408.png"
 import { useEffect } from "react";
 import Values from "../components/About/values";
 import { Link } from "react-router-dom";
