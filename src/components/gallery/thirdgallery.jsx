@@ -44,7 +44,7 @@ const images = [
     "/awardprogram/image (39).jpg",
 ];
 
-const thirdgallery = () => {
+const Thirdgallery = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [photoIndex, setPhotoIndex] = useState(0);
 
@@ -102,4 +102,4 @@ const thirdgallery = () => {
 };
 
  
-export default thirdgallery;
+export default Thirdgallery;
