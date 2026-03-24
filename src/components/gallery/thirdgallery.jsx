@@ -1,9 +1,8 @@
 import { useState } from "react";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
+import Modal from "react-modal";
 
-const images = [
-    "/back2school/image (1).jpg",
+const mediaItems = [
+  "/back2school/image (1).jpg",
   "/back2school/image (2).jpg",
   "/back2school/image (3).jpg",
   "/back2school/image (4).jpg",
@@ -97,62 +96,138 @@ const images = [
   "/back2school/video (5).mp4",
 ];
 
+const isVideo = (url) => url.match(/\.(mp4|webm|ogg)$/i);
+Modal.setAppElement("#root");
+
 const Thirdgallery = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    const [photoIndex, setPhotoIndex] = useState(0);
+  const [isOpen, setIsOpen] = useState(false);
+  const [mediaIndex, setMediaIndex] = useState(0);
 
-    const handleDownload = (image) => {
-        const link = document.createElement("a");
-        link.href = image;
-        link.download = image.split("/").pop();
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
+  const images = mediaItems.filter((item) => !isVideo(item));
+  const videos = mediaItems.filter((item) => isVideo(item));
+  const allMedia = [...images, ...videos];
 
-    return (
-        <div className="p-5">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                {images.map((src, index) => (
-                    <img
-                        key={index}
-                        src={src}
-                        alt={`Image ${index + 1}`}
-                        className="cursor-pointer rounded-lg shadow-md hover:shadow-xl transition duration-200"
-                        onClick={() => {
-                            setPhotoIndex(index);
-                            setIsOpen(true);
-                        }}
-                    />
-                ))}
+  const handleDownload = (media) => {
+    const link = document.createElement("a");
+    link.href = media;
+    link.download = media.split("/").pop();
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  const nextMedia = () =>
+    setMediaIndex((mediaIndex + 1) % allMedia.length);
+  const prevMedia = () =>
+    setMediaIndex((mediaIndex + allMedia.length - 1) % allMedia.length);
+
+  return (
+    <div className="p-5 space-y-10">
+      {/* Image Section */}
+      <div>
+        <h2 className="text-2xl font-bold mb-4 text-center">Back to School Photos</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          {images.map((src, index) => (
+            <div
+              key={index}
+              className="cursor-pointer"
+              onClick={() => {
+                setMediaIndex(index);
+                setIsOpen(true);
+              }}
+            >
+              <img
+                src={src}
+                alt={`Media ${index + 1}`}
+                loading="lazy"
+                className="w-full rounded-lg shadow-md hover:shadow-xl transition duration-200"
+              />
             </div>
-
-            {isOpen && (
-                <Lightbox
-                    mainSrc={images[photoIndex]}
-                    nextSrc={images[(photoIndex + 1) % images.length]}
-                    prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-                    onCloseRequest={() => setIsOpen(false)}
-                    onMovePrevRequest={() =>
-                        setPhotoIndex((photoIndex + images.length - 1) % images.length)
-                    }
-                    onMoveNextRequest={() =>
-                        setPhotoIndex((photoIndex + 1) % images.length)
-                    }
-                    toolbarButtons={[
-                        <button
-                            key="download"
-                            onClick={() => handleDownload(images[photoIndex])}
-                            className="bg-blue-500 text-white px-2 py-2 rounded-md mt-[30px]"
-                        >
-                            Download
-                        </button>,
-                    ]}
-                />
-            )}
+          ))}
         </div>
-    );
+      </div>
+
+      {/* Video Section */}
+      <div>
+        <h2 className="text-2xl font-bold mb-4 text-center">Back to School Videos</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          {videos.map((src, index) => {
+            const fullIndex = images.length + index; // offset into allMedia
+            return (
+              <div
+                key={index}
+                className="cursor-pointer"
+                onClick={() => {
+                  setMediaIndex(fullIndex);
+                  setIsOpen(true);
+                }}
+              >
+                <video
+                  src={src}
+                  className="w-full rounded-lg shadow-md"
+                  muted
+                  playsInline
+                  preload="metadata"
+                />
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Modal */}
+      <Modal
+        isOpen={isOpen}
+        onRequestClose={() => setIsOpen(false)}
+        shouldCloseOnOverlayClick={true}
+        contentLabel="Media Viewer"
+        className="fixed inset-0 flex items-center justify-center outline-none"
+        overlayClassName="fixed inset-0 bg-black bg-opacity-70 z-40"
+      >
+        <div
+          className="relative max-w-[90%] max-h-[90%] bg-black p-4 rounded-lg z-50"
+          onClick={(e) => e.stopPropagation()}
+        >
+          <button
+            onClick={() => setIsOpen(false)}
+            className="absolute top-2 right-2 text-white bg-red-600 hover:bg-red-700 rounded-full p-2 text-xl z-50"
+          >
+            &times;
+          </button>
+
+          {isVideo(allMedia[mediaIndex]) ? (
+            <video
+              src={allMedia[mediaIndex]}
+              controls
+              autoPlay
+              className="max-w-full max-h-[80vh] rounded-lg"
+            />
+          ) : (
+            <img
+              src={allMedia[mediaIndex]}
+              alt=""
+              className="max-w-full max-h-[80vh] rounded-lg"
+            />
+          )}
+
+          <div className="flex justify-between mt-4 text-white">
+            <button onClick={prevMedia} className="px-4 py-2 bg-gray-700 rounded">
+              Previous
+            </button>
+            <button
+              onClick={() => handleDownload(allMedia[mediaIndex])}
+              className="px-4 py-2 bg-blue-500 rounded"
+            >
+              Download
+            </button>
+            <button onClick={nextMedia} className="px-4 py-2 bg-gray-700 rounded">
+              Next
+            </button>
+          </div>
+        </div>
+      </Modal>
+    </div>
+  );
 };
 
- 
 export default Thirdgallery;
