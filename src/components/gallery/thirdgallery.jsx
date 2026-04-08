@@ -1,16 +1,8 @@
 import { useState } from "react";
-<<<<<<< HEAD
 import Modal from "react-modal";
 
 const mediaItems = [
   "/back2school/image (1).jpg",
-=======
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
-
-const images = [
-    "/back2school/image (1).jpg",
->>>>>>> 9cc1a8a8393f0b8fb09c329c2a91d3b312d0c00d
   "/back2school/image (2).jpg",
   "/back2school/image (3).jpg",
   "/back2school/image (4).jpg",
@@ -104,7 +96,6 @@ const images = [
   "/back2school/video (5).mp4",
 ];
 
-<<<<<<< HEAD
 const isVideo = (url) => url.match(/\.(mp4|webm|ogg)$/i);
 Modal.setAppElement("#root");
 
@@ -240,64 +231,3 @@ const Thirdgallery = () => {
 };
 
 export default Thirdgallery;
-=======
-const Thirdgallery = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    const [photoIndex, setPhotoIndex] = useState(0);
-
-    const handleDownload = (image) => {
-        const link = document.createElement("a");
-        link.href = image;
-        link.download = image.split("/").pop();
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
-
-    return (
-        <div className="p-5">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                {images.map((src, index) => (
-                    <img
-                        key={index}
-                        src={src}
-                        alt={`Image ${index + 1}`}
-                        className="cursor-pointer rounded-lg shadow-md hover:shadow-xl transition duration-200"
-                        onClick={() => {
-                            setPhotoIndex(index);
-                            setIsOpen(true);
-                        }}
-                    />
-                ))}
-            </div>
-
-            {isOpen && (
-                <Lightbox
-                    mainSrc={images[photoIndex]}
-                    nextSrc={images[(photoIndex + 1) % images.length]}
-                    prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-                    onCloseRequest={() => setIsOpen(false)}
-                    onMovePrevRequest={() =>
-                        setPhotoIndex((photoIndex + images.length - 1) % images.length)
-                    }
-                    onMoveNextRequest={() =>
-                        setPhotoIndex((photoIndex + 1) % images.length)
-                    }
-                    toolbarButtons={[
-                        <button
-                            key="download"
-                            onClick={() => handleDownload(images[photoIndex])}
-                            className="bg-blue-500 text-white px-2 py-2 rounded-md mt-[30px]"
-                        >
-                            Download
-                        </button>,
-                    ]}
-                />
-            )}
-        </div>
-    );
-};
-
- 
-export default Thirdgallery;
->>>>>>> 9cc1a8a8393f0b8fb09c329c2a91d3b312d0c00d
