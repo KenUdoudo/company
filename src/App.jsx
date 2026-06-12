@@ -80,6 +80,7 @@ function App() {
             <Route path="/christmasprogramphotos" element={<Firstgallery />} />
             <Route path="/plefoundationawardprogram" element={<Secondgallery />} />
             <Route path="/backtoschooloutreachprogram" element={<Thirdgallery />} />
+            <Route path="/girlsdignityinitiative" element={<Fourthgallery />} />
           </Routes>
         </div>
 

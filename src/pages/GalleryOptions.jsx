@@ -9,6 +9,7 @@ const GalleryOptions = () => {
                 <Link to="/plefoundationawardprogram"> <p className="border-4 pl-[10px] text-[19px] border-[#F7941D] font-[600] py-[10px] hover:bg-[#F7941D] hover:text-white">PLEF Foundation Award Program</p></Link>
                 <Link to="/christmasprogramphotos"> <p className="border-4 pl-[10px] text-[19px] border-[#F7941D] font-[600] py-[10px] hover:bg-[#F7941D] hover:text-white">Christmas Program</p></Link>
                 <Link to="/backtoschooloutreachprogram"> <p className="border-4 pl-[10px] text-[19px] border-[#F7941D] font-[600] py-[10px] hover:bg-[#F7941D] hover:text-white">Back to School Outreach Program</p></Link>
+                <Link to="/girlsdignityinitiative"> <p className="border-4 pl-[10px] text-[19px] border-[#F7941D] font-[600] py-[10px] hover:bg-[#F7941D] hover:text-white">Girls Dignity Initiative</p></Link>
             </div>
         </div>
     );
