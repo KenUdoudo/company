@@ -13,7 +13,7 @@ import { HiMiniEnvelope } from "react-icons/hi2";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import logo from "./assets/newlogo.svg";
+import logo from "./assets/logo.svg";
 import { HiOutlineMenu } from "react-icons/hi";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Link } from "react-router-dom";

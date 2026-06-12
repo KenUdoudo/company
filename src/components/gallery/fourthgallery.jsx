@@ -2,14 +2,14 @@ import { useState } from "react";
 import Modal from "react-modal";
 
 const mediaGroups = {
-  "GSS Maraba": [
+  "Government Secondary School, Maraba, Abuja": [
     "/girlsdignityinitiative/gssmaraba/image (1).jpg",
     "/girlsdignityinitiative/gssmaraba/image (2).jpg",
     "/girlsdignityinitiative/gssmaraba/image (3).jpg",
     "/girlsdignityinitiative/gssmaraba/image (4).jpg",
   ],
 
-  "GSS Gwarimpa": [
+  "Government Secondary School, Gwarimpa, Abuja": [
     "/girlsdignityinitiative/gssgwarimpa/image (1).jpg",
     "/girlsdignityinitiative/gssgwarimpa/image (2).jpg",
     "/girlsdignityinitiative/gssgwarimpa/image (3).jpg",
@@ -17,7 +17,7 @@ const mediaGroups = {
     "/girlsdignityinitiative/gssgwarimpa/image (5).jpg",
   ],
 
-  "JSS Nassarawa": [
+  "Junior Secondary School, Nassarawa": [
     "/girlsdignityinitiative/jssnassarawa/image (1).jpg",
     "/girlsdignityinitiative/jssnassarawa/image (2).jpg",
     "/girlsdignityinitiative/jssnassarawa/image (3).jpg",
