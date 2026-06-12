@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Firstgallery from "./components/gallery/firstgallery";
 import Secondgallery from "./components/gallery/secondgallery";
 import Thirdgallery from "./components/gallery/thirdgallery";
+import Fourthgallery from "./components/gallery/fourthgallery";
 import { HiMiniEnvelope } from "react-icons/hi2";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaTwitter } from "react-icons/fa";
